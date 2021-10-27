@@ -1,5 +1,5 @@
 public class Position {
-    String name;
+    private String name;
 
     public Position(String name) {
         this.name = name;

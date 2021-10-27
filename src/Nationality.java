@@ -1,5 +1,5 @@
 public class Nationality {
-    String name;
+    private String name;
 
     public Nationality(String name){
         this.name = name;
