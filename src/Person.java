@@ -1,7 +1,7 @@
 public class Person {
-    String name;
-    int age;
-    Nationality nationality;
+    private String name;
+    private int age;
+    private Nationality nationality;
 
     public Person(String name, int age, Nationality nationality) {
         this.name = name;
