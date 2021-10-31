@@ -17,8 +17,9 @@ public class TestTeams {
         Coach marekCoach = new Coach("Mitko", 50, Utils.bulgarian, 80);
         Assistant marekAssCoach = new Assistant("Georgi", 40, Utils.bulgarian, 75);
 
-        Team marekDupnica = new Team(marekPlayers, marekCoach, marekAssCoach);
+        Team marekDupnica = new Team("Марек Дупница", "Дупничари",
+                marekPlayers, marekCoach, marekAssCoach, Utils.bonchuk);
 
-        System.out.println("Marek dupenica att overall: " + marekDupnica.getAttackOverall());
+        System.out.println("Информация: " + marekDupnica.teamInfo());
     }
 }
