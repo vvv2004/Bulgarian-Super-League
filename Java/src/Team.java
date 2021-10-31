@@ -1,6 +1,8 @@
 import jdk.jshell.execution.Util;
 
 public class Team {
+    private String name;
+    private String nickname;
     private Player[] players = new Player[16];
     private Coach coach;
     private Assistant assistantCoach;
@@ -10,7 +12,9 @@ public class Team {
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(Player[] players, Coach coach, Assistant assistantCoach, Stadium stadium) {
+    public Team(String name, String nickname, Player[] players, Coach coach, Assistant assistantCoach, Stadium stadium) {
+        this.name = name;
+        this.nickname = nickname;
         this.players = players;
         this.coach = coach;
         this.assistantCoach = assistantCoach;
