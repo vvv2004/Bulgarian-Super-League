@@ -86,4 +86,13 @@ public class Team {
 
         return avg / counter;
     }
+
+    public String teamInfo() {
+        return "\n"+
+                "Име: " + name +
+                "\nСтадион: " + stadium.getName() +
+                "\nПрозвище: " + nickname +
+                "\nГлавен Треньор: " + coach.getName() +
+                "\nАсистент Треньор: " + assistantCoach.getName();
+    }
 }

@@ -20,6 +20,6 @@ public class TestTeams {
         Team marekDupnica = new Team("Марек Дупница", "Дупничари",
                 marekPlayers, marekCoach, marekAssCoach, Utils.bonchuk);
 
-        System.out.println("Marek dupenica att overall: " + marekDupnica.getAttackOverall());
+        System.out.println("Информация: " + marekDupnica.teamInfo());
     }
 }
