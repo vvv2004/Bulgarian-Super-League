@@ -4,15 +4,18 @@ public class Team {
     private Player[] players = new Player[16];
     private Coach coach;
     private Assistant assistantCoach;
+    private Stadium stadium;
 
     private int attackOverall;
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(Player[] players, Coach coach, Assistant assistantCoach) {
+    public Team(Player[] players, Coach coach, Assistant assistantCoach, Stadium stadium) {
         this.players = players;
         this.coach = coach;
         this.assistantCoach = assistantCoach;
+        this.stadium = stadium;
+
         attackOverall = calculateAvgOverall(players, Utils.attacker);
         midfieldOverall = calculateAvgOverall(players, Utils.midfielder);
         defenceOverall = calculateAvgOverall(players, Utils.defender);
