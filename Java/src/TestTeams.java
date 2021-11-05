@@ -1,4 +1,7 @@
+import java.io.IOException;
+
 public class TestTeams {
+<<<<<<< Updated upstream
     public static void main(String[] args) {
         Player[] marekPlayers = new Player[12];
         marekPlayers[0] = new Player("Boyan", 17, Utils.bulgarian, Utils.defender, 60);
@@ -21,5 +24,11 @@ public class TestTeams {
                 marekPlayers, marekCoach, marekAssCoach, Utils.bonchuk);
 
         System.out.println("Информация: " + marekDupnica.teamInfo());
+=======
+    public static void main(String[] args) throws IOException {
+        String str = ReadData.readPlayerData("D:\\BSL\\Bulgarian-Super-League\\Teams\\MarekDupnitsa\\Players.txt","Name");
+
+        System.out.println(str);
+>>>>>>> Stashed changes
     }
 }
