@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
-    </list>
+    <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +18,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="204yO8KIZNC6UF2zk3XSj9TyT0q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +25,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="TestTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
