@@ -1,3 +1,9 @@
+package ProjectUtils;
+
+import Classes.Nationality;
+import Classes.Position;
+import Classes.Stadium;
+
 public class Utils {
     public static Position attacker = new Position("Attacker");
     public static Position midfielder = new Position("Midfielder");

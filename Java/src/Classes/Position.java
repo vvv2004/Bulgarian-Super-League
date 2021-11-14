@@ -1,3 +1,5 @@
+package Classes;
+
 public class Position {
     private String name;
 
