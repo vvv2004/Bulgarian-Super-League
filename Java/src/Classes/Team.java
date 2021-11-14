@@ -26,6 +26,15 @@ public class Team {
         defenceOverall = calculateAvgOverall(players, Utils.defender);
     }
 
+    public Team(){
+        name = null;
+        nickname = null;
+        players = null;
+        coach = null;
+        assistantCoach = null;
+        stadium = null;
+    }
+
     public Player[] getPlayers() {
         return players;
     }

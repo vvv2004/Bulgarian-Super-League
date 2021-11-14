@@ -1,7 +1,18 @@
 package ReaderWriter;
+import Classes.*;
+
+import java.util.Scanner;
 
 public class Reader {
-    String path;
+    private String path;
+    Scanner scan;
 
+    public Reader(){
+        path = "../Teams";
+    }
 
+    public String getTeamInfo(String conference, String team){
+        Player[] player = new Player[16];
+
+    }
 }
