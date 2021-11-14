@@ -1,0 +1,5 @@
+name=Dorian Babunski
+age=21
+nationality=bulgarian
+position=f
+overall=72
