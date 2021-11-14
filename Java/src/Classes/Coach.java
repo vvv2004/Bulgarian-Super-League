@@ -7,4 +7,13 @@ public class Coach extends Person{
         super(name, age, nationality);
         this.overall = overall;
     }
+
+    public int getOverall() {
+        return overall;
+    }
+
+    public void setOverall(int overall) {
+        this.overall = overall;
+    }
+
 }
