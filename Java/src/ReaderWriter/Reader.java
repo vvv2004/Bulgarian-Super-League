@@ -7,10 +7,12 @@ import java.util.Scanner;
 
 public class Reader {
     private String path;
+    private String teamInfoFile;
     Scanner scan;
 
     public Reader(){
         path = "../Teams";
+        teamInfoFile  = "team_info.txt";
     }
 
     public String getTeamInfo(String conference, String team) throws IOException{
@@ -28,11 +30,18 @@ public class Reader {
         return teamInfo;
     }
 
-    public String getSpecificTeamInfo(String conference, String team, String typeOfInfo) throws IOException {
-        String path = this.path + '/' + conference + '/' + team;
+    public String getSpecificTeamInfo(String teamInfo, String typeOfInfo) {
+        String output = "";
 
-        scan = new Scanner(new File(path));
+        Scanner scan = new Scanner(teamInfo);
 
-        return null;
+        while(scan.hasNextLine()){
+            if(scan.nextLine().contains(typeOfInfo)){
+                output += scan.next();
+                break;
+            }
+        }
+
+        return output;
     }
 }

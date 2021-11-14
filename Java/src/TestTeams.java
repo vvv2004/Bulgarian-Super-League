@@ -12,13 +12,16 @@ public class TestTeams {
 
         Reader read = new Reader();
         String teamInfo = "";
+        String goalDifference = "";
 
         try {
             teamInfo = read.getTeamInfo("WEST", "Bdin Vidin");
+            goalDifference = read.getSpecificTeamInfo(teamInfo, "goalsAllowed");
         }catch(IOException e){
             System.out.println(e);
         }
         System.out.println(teamInfo);
+        System.out.println("\nGoal difference only: " + goalDifference);
 
 
     }
