@@ -6,6 +6,7 @@ public class Person {
     private String nationality;
 
     public Person(String name, int age, String nationality) {
+
         this.name = name;
         this.age = age;
         this.nationality = nationality;

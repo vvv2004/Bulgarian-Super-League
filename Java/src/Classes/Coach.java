@@ -15,4 +15,5 @@ public class Coach extends Person{
     public void setOverall(int overall) {
         this.overall = overall;
     }
+
 }
