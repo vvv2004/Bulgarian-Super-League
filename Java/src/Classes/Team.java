@@ -2,18 +2,25 @@ package Classes;
 import ProjectUtils.*;
 
 public class Team {
+    private String name;
+    private String nickname;
     private Player[] players = new Player[16];
     private Coach coach;
     private Assistant assistantCoach;
+    private Stadium stadium;
 
     private int attackOverall;
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(Player[] players, Coach coach, Assistant assistantCoach) {
+    public Team(String name, String nickname, Player[] players, Coach coach, Assistant assistantCoach, Stadium stadium) {
+        this.name = name;
+        this.nickname = nickname;
         this.players = players;
         this.coach = coach;
         this.assistantCoach = assistantCoach;
+        this.stadium = stadium;
+
         attackOverall = calculateAvgOverall(players, Utils.attacker);
         midfieldOverall = calculateAvgOverall(players, Utils.midfielder);
         defenceOverall = calculateAvgOverall(players, Utils.defender);
@@ -79,5 +86,14 @@ public class Team {
         }
 
         return avg / counter;
+    }
+
+    public String teamInfo() {
+        return "\n"+
+                "Име: " + name +
+                "\nСтадион: " + stadium.getName() +
+                "\nПрозвище: " + nickname +
+                "\nГлавен Треньор: " + coach.getName() +
+                "\nАсистент Треньор: " + assistantCoach.getName();
     }
 }
