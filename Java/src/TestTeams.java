@@ -13,16 +13,19 @@ public class TestTeams {
         Reader read = new Reader();
         String teamInfo = "";
         String goalDifference = "";
+        String playerInfo = "";
 
         try {
             teamInfo = read.getTeamInfo("WEST", "Bdin Vidin");
             goalDifference = read.getSpecificTeamInfo(teamInfo, "goalDifference");
+            playerInfo = read.getPlayerInfo("WEST", "Botev Vratsa", "Dorian Babunski");
         }catch(IOException e){
             System.out.println(e);
         }
         System.out.println(teamInfo);
         System.out.println("\nGoal difference only: " + goalDifference);
-
-
+        System.out.println(playerInfo);
+        System.out.println("Dorian Babunski's overall + 5: " + (Integer.parseInt(read.getSpecificPlayerInfo(playerInfo, "overall")) + 5));
+        System.out.println("Coach info: ");
     }
 }
