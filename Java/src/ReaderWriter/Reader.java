@@ -36,12 +36,16 @@ public class Reader {
         Scanner scan = new Scanner(teamInfo);
 
         while(scan.hasNextLine()){
-            if(scan.nextLine().contains(typeOfInfo)){
-                output += scan.next();
+            String dataInRow = scan.nextLine();
+
+            if(dataInRow.contains(typeOfInfo)){
+                output += dataInRow;
                 break;
             }
         }
 
-        return output;
+        String[] splitData = output.split("=");
+
+        return splitData[1];
     }
 }

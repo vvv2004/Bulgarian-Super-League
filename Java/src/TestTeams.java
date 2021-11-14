@@ -16,7 +16,7 @@ public class TestTeams {
 
         try {
             teamInfo = read.getTeamInfo("WEST", "Bdin Vidin");
-            goalDifference = read.getSpecificTeamInfo(teamInfo, "goalsAllowed");
+            goalDifference = read.getSpecificTeamInfo(teamInfo, "goalDifference");
         }catch(IOException e){
             System.out.println(e);
         }
