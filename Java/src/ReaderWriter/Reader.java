@@ -12,7 +12,13 @@ public class Reader {
     }
 
     public String getTeamInfo(String conference, String team){
+        Team team1 = new Team();
+
+        String teamInfo = team1.toString();
+
         Player[] player = new Player[16];
 
+
+        return teamInfo;
     }
 }

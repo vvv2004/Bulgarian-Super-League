@@ -21,9 +21,9 @@ public class Team {
         this.assistantCoach = assistantCoach;
         this.stadium = stadium;
 
-        attackOverall = calculateAvgOverall(players, Utils.attacker);
-        midfieldOverall = calculateAvgOverall(players, Utils.midfielder);
-        defenceOverall = calculateAvgOverall(players, Utils.defender);
+        attackOverall = calculateAvgOverall(players, Position.FORWARD);
+        midfieldOverall = calculateAvgOverall(players, Position.MIDFIELDER);
+        defenceOverall = calculateAvgOverall(players, Position.DEFENDER);
     }
 
     public Team(){

@@ -1,10 +1,11 @@
 package Classes;
+import ProjectUtils.*;
 
 public class Player extends Person{
     private int overall;
     private Position position;
 
-    public Player(String name, int age, Nationality nationality, Position position, int overall) {
+    public Player(String name, int age, String nationality, Position position, int overall) {
         super(name, age, nationality);
         this.position = position;
         this.overall = overall;
