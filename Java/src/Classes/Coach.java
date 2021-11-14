@@ -1,3 +1,5 @@
+package Classes;
+
 public class Coach extends Person{
     private int overall;
 
