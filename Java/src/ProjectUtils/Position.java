@@ -1,5 +1,5 @@
 package ProjectUtils;
 
 public enum Position {
-    FORWARD, MIDFIELDER, DEFENDER
+    FORWARD, MIDFIELDER, DEFENDER, GOALKEEPER
 }
