@@ -1,0 +1,6 @@
+name=Алекс Петков
+age=22
+number=24
+nationality=bulgarian
+position=d
+overall=72

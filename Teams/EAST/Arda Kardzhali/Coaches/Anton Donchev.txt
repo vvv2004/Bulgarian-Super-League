@@ -1,0 +1,5 @@
+name=Антон Дончев
+role=conditional
+age=91
+nationality=Bulgarian
+overall=66

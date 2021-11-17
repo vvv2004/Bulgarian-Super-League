@@ -1,0 +1,6 @@
+name=Жуниньо
+age=22
+number=37
+nationality=bulgarian
+position=f
+overall=78

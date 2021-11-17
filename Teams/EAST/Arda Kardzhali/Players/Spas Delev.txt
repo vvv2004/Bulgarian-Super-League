@@ -1,0 +1,6 @@
+name=Спас Делев
+age=32
+number=9
+nationality=bulgarian
+position=f
+overall=78

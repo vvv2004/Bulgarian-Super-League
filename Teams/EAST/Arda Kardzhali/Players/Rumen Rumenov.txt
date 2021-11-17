@@ -1,0 +1,6 @@
+name=Румен Руменов
+age=28
+number=19
+nationality=bulgarian
+position=m
+overall=73

@@ -1,0 +1,6 @@
+name=Иван Караджов
+age=32
+number=12
+nationality=bulgarian
+position=g
+overall=72

@@ -1,0 +1,6 @@
+name=Слободан Рубежич
+age=21
+number=18
+nationality=serbian
+position=d
+overall=68

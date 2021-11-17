@@ -1,0 +1,6 @@
+name=Тонислав Йорданов
+age=22
+number=98
+nationality=bulgarian
+position=f
+overall=73

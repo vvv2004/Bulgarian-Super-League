@@ -1,0 +1,6 @@
+name=Пламен Крумов
+age=36
+number=71
+nationality=bulgarian
+position=d
+overall=75

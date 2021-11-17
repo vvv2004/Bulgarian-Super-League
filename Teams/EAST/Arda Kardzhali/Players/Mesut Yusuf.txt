@@ -1,0 +1,6 @@
+name=Месут Юсуф
+age=29
+number=23
+nationality=bulgarian
+position=g
+overall=69

@@ -1,0 +1,6 @@
+name=Георги Атанасов
+age=17
+number=29
+nationality=bulgarian
+position=f
+overall=70
