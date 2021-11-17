@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReaderWriter/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TestTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TestTeams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Coachs/Hristo Iliev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Coachs/Ivaylo Dimitrov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Coachs/Todor Garev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Antonio Georgiev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Chavdar Ivaylov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Diego Ferrareso.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Dorian Babunski.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Hristo Mitov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Iliya Milanov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Ivan Mitrev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Krassimir Kostov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Martin Kostadinov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Matheus Cassini.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Miroslav Marinov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Nikolay Krastev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Plamen Spasov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Stefan Gavrilov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Valeri Hristov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratca/Players/Yoan Baurenski.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectUtils/CoachRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Coach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
