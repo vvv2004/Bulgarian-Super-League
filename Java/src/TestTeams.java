@@ -5,7 +5,7 @@ import ReaderWriter.*;
 import java.io.IOException;
 
 public class TestTeams {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Player testPlayer = new Player("Ivan", 16, "Bulgarian", Position.MIDFIELDER, 75);
 
         System.out.println(testPlayer.getPosition());
@@ -27,5 +27,7 @@ public class TestTeams {
         System.out.println(playerInfo);
         System.out.println("Dorian Babunski's overall + 5: " + (Integer.parseInt(read.getSpecificPlayerInfo(playerInfo, "overall")) + 5));
         System.out.println("Coach info: ");
+
+        //System.out.println(read.getSpecificPlayerInfo(read.getPlayerInfo("WEST", "Botev Vratsa", "Dorian Babunski"), "position"));
     }
 }
