@@ -1,0 +1,5 @@
+name=Атанас Стефанов
+role=conditional
+age=51
+nationality=Bulgarian
+overall=74

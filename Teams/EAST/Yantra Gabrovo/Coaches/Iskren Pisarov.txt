@@ -1,0 +1,5 @@
+name=Искрен Писаров
+role=conditional
+age=40
+nationality=Bulgarian
+overall=76

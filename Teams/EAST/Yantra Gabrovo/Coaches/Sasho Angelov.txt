@@ -1,0 +1,5 @@
+name=Сашо Ангелов
+role=general
+age=52
+nationality=Bulgarian
+overall=77

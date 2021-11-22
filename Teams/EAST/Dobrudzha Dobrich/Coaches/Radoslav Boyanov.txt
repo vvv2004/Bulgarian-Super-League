@@ -1,0 +1,5 @@
+name=Радослав Боянов
+role=assistant
+age=43
+nationality=Bulgarian
+overall=75

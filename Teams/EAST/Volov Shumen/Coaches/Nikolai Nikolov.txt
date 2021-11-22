@@ -1,0 +1,5 @@
+name=Николай Николов
+role=general
+age=45
+nationality=Bulgarian
+overall=74

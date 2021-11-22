@@ -1,0 +1,5 @@
+name=Александър Филипов
+role=conditional
+age=23
+nationality=Bulgarian
+overall=77

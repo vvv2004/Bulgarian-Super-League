@@ -1,0 +1,5 @@
+name=Петър Костадинов
+role=assistant
+age=42
+nationality=Bulgarian
+overall=77

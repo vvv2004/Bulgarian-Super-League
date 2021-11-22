@@ -1,0 +1,5 @@
+name=Цветомир Младенов
+role=assistant
+age=35
+nationality=Bulgarian
+overall=73

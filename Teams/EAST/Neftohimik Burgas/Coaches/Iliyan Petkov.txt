@@ -1,0 +1,5 @@
+name=Илиян Петков
+role=conditional
+age=45
+nationality=Bulgarian
+overall=74

@@ -1,0 +1,5 @@
+name=Петър Колев
+role=general
+age=46
+nationality=Bulgarian
+overall=73

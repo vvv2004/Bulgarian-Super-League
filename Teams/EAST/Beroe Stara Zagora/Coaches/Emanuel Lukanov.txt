@@ -1,0 +1,5 @@
+name=Емануел Луканов
+role=assistant
+age=46
+nationality=Bulgarian
+overall=72

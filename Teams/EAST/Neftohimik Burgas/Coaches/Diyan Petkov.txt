@@ -1,0 +1,5 @@
+name=Диян Петков
+role=assistant
+age=50
+nationality=Bulgarian
+overall=75

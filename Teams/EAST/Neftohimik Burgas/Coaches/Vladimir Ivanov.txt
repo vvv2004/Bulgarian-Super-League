@@ -1,0 +1,5 @@
+name=Николай Кръстев
+role=general
+age=42
+nationality=Bulgarian
+overall=75

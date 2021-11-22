@@ -1,0 +1,5 @@
+name=Велимир Машкаров
+role=conditional
+age=50
+nationality=Bulgarian
+overall=73

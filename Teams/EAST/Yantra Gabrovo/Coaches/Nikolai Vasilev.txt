@@ -1,0 +1,5 @@
+name=Николай Василев
+role=assistant
+age=51
+nationality=Bulgarian
+overall=76

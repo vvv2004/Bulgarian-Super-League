@@ -1,0 +1,5 @@
+name=Георги Онов
+role=assistant
+age=37
+nationality=Bulgarian
+overall=79

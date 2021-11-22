@@ -1,0 +1,5 @@
+name=Тодор Георгиев
+role=conditional
+age=41
+nationality=Bulgarian
+overall=79

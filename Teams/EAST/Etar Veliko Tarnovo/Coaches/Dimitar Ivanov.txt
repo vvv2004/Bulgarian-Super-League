@@ -1,0 +1,5 @@
+name=Димитър Иванов
+role=assistant
+age=40
+nationality=Bulgarian
+overall=74

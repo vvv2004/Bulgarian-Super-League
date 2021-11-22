@@ -1,0 +1,5 @@
+name=Марин Стефанов
+role=conditional
+age=47
+nationality=Bulgarian
+overall=74

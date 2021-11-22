@@ -1,0 +1,5 @@
+name=Илиан Илиев
+role=general
+age=53
+nationality=Bulgarian
+overall=78

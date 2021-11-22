@@ -1,0 +1,5 @@
+name=Азрудин Валентич
+role=general
+age=51
+nationality=Bosnian
+overall=80

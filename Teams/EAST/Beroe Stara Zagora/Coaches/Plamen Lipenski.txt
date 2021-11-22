@@ -1,0 +1,5 @@
+name=Пламен Липенски
+role=conditional
+age=61
+nationality=Bulgarian
+overall=70

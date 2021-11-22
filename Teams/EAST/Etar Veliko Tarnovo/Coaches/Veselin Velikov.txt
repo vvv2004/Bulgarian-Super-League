@@ -1,0 +1,5 @@
+name=Веселин Великов
+role=general
+age=44
+nationality=Bulgarian
+overall=75

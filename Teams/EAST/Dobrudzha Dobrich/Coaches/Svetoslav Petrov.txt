@@ -1,0 +1,5 @@
+name=Светослав Петров
+role=general
+age=43
+nationality=Bulgarian
+overall=76
