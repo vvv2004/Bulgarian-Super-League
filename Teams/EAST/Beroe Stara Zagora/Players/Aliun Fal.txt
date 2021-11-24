@@ -1,0 +1,6 @@
+name=Алиун Фал
+age=25
+number=11
+nationality=senegal
+position=f
+overall=78

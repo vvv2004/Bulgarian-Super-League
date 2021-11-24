@@ -1,0 +1,6 @@
+name=Кийлън Лебон
+age=23
+number=21
+nationality=french
+position=m
+overall=76

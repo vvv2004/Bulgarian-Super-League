@@ -1,0 +1,6 @@
+name=Нордин Бакер
+age=23
+number=1
+nationality=dutch
+position=g
+overall=78

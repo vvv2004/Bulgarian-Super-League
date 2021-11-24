@@ -1,0 +1,6 @@
+name=Кукула
+age=28
+number=7
+nationality=nigerian
+position=f
+overall=79

@@ -1,0 +1,6 @@
+name=Омар Сако
+age=25
+number=5
+nationality=Côte d'Ivoire
+position=d
+overall=78

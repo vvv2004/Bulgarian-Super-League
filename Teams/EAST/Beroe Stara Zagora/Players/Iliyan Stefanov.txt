@@ -1,0 +1,6 @@
+name=Илиян Стефанов
+age=22
+number=8
+nationality=bulgarian
+position=m
+overall=78

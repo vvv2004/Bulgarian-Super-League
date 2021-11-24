@@ -1,0 +1,6 @@
+name=Мирослав Енчев
+age=29
+number=3
+nationality=bulgarian
+position=d
+overall=77

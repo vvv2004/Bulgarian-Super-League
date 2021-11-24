@@ -1,0 +1,6 @@
+name=Мартин Камбуров
+age=41
+number=9
+nationality=bulgarian
+position=f
+overall=82

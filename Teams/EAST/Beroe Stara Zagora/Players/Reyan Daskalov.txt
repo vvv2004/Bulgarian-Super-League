@@ -1,0 +1,6 @@
+name=Реян Даскалов
+age=26
+number=17
+nationality=bulgarian
+position=m
+overall=78

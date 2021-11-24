@@ -1,0 +1,6 @@
+name=Никола Маринов
+age=18
+number=13
+nationality=bulgarian
+position=f
+overall=77

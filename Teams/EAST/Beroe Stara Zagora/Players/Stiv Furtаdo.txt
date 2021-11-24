@@ -1,0 +1,6 @@
+name=Стив Фуртадо
+age=25
+number=20
+nationality=french
+position=d
+overall=78

@@ -1,0 +1,6 @@
+name=Христо Митев
+age=24
+number=4
+nationality=bulgarian
+position=d
+overall=79

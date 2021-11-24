@@ -1,0 +1,6 @@
+name=Джунейт Али
+age=26
+number=2
+nationality=bulgarian
+position=d
+overall=78

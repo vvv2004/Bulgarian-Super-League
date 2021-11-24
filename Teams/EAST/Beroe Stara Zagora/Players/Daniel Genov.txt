@@ -1,0 +1,6 @@
+name=Даниел Генов
+age=32
+number=10
+nationality=bulgarian
+position=m
+overall=80
