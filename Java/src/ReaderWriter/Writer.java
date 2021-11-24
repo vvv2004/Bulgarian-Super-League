@@ -1,8 +1,11 @@
 package ReaderWriter;
 
+import Classes.*;
+
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
+
 
 public class Writer {
     private String path;
@@ -11,15 +14,11 @@ public class Writer {
         path = "../Teams";
     }
 
-    public void setSpecificTeamInfo(String conference, String team, String typeOfData) throws IOException {
+    public void setFullTeamInfo(Team teamObject, String conference, String team) throws IOException {
         String path = this.path + '/' + conference + '/' + team + "/team_info.txt";
-
-        Reader r = new Reader();
-
-        String teamInfo = r.getTeamInfo(conference, team);
-        
-
-        FileWriter fileWriter = new FileWriter(path);
-
+        File file = new File(path);
+        FileWriter fileWriter = new FileWriter(file);
+        fileWriter.write(teamObject.toString());
+        fileWriter.close();
     }
 }

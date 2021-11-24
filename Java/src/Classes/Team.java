@@ -6,14 +6,14 @@ public class Team {
     private String nickname;
     private Player[] players = new Player[16];
     private Coach coach;
-    private Assistant assistantCoach;
+    private Coach assistantCoach;
     private Stadium stadium;
 
     private int attackOverall;
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(String name, String nickname, Player[] players, Coach coach, Assistant assistantCoach, Stadium stadium) {
+    public Team(String name, String nickname, Player[] players, Coach coach, Coach assistantCoach, Stadium stadium) {
         this.name = name;
         this.nickname = nickname;
         this.players = players;
@@ -51,11 +51,11 @@ public class Team {
         this.coach = coach;
     }
 
-    public Assistant getAssistantCoach() {
+    public Coach getAssistantCoach() {
         return assistantCoach;
     }
 
-    public void setAssistantCoach(Assistant assistantCoach) {
+    public void setAssistantCoach(Coach assistantCoach) {
         this.assistantCoach = assistantCoach;
     }
 

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProjectUtils/CoachRoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Addresses/TeamAddresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Conference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Conference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectUtils/CoachRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectUtils/CoachRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderWriter/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderWriter/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="TestTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

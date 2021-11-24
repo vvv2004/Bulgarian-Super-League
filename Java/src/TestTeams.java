@@ -1,33 +1,23 @@
-import Classes.Player;
-import ProjectUtils.Position;
+import Classes.*;
+import ProjectUtils.*;
 import ReaderWriter.*;
+import Addresses.*;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
 
 public class TestTeams {
     public static void main(String[] args) throws IOException {
-        Player testPlayer = new Player("Ivan", 16, "Bulgarian", Position.MIDFIELDER, 75);
+        HashMap<String, String> teamAddresses = TeamAddresses.loadTeamAddresses();
+        Reader reader = new Reader();
 
-        System.out.println(testPlayer.getPosition());
 
-        Reader read = new Reader();
-        String teamInfo = "";
-        String goalDifference = "";
-        String playerInfo = "";
+        Team ardaKardzhali = new Team();
+        ardaKardzhali.setPlayers(reader.getPlayersFromTeam(teamAddresses.get("Arda Kardzhali")));
 
-        try {
-            teamInfo = read.getTeamInfo("WEST", "Bdin Vidin");
-            goalDifference = read.getSpecificTeamInfo(teamInfo, "goalDifference");
-            playerInfo = read.getPlayerInfo("WEST", "Botev Vratsa", "Dorian Babunski");
-        }catch(IOException e){
-            System.out.println(e);
+        for (Player player : ardaKardzhali.getPlayers()) {
+            System.out.println(player.toString());
         }
-        System.out.println(teamInfo);
-        System.out.println("\nGoal difference only: " + goalDifference);
-        System.out.println(playerInfo);
-        System.out.println("Dorian Babunski's overall + 5: " + (Integer.parseInt(read.getSpecificPlayerInfo(playerInfo, "overall")) + 5));
-        System.out.println("Coach info: ");
-
-        //System.out.println(read.getSpecificPlayerInfo(read.getPlayerInfo("WEST", "Botev Vratsa", "Dorian Babunski"), "position"));
     }
 }
