@@ -11,6 +11,10 @@ public class Coach extends Person{
         this.role = role;
     }
 
+    public Coach(){
+        super(null, 0, null);
+    }
+
     public int getOverall() {
         return overall;
     }
@@ -19,4 +23,11 @@ public class Coach extends Person{
         this.overall = overall;
     }
 
+    public CoachRoles getRole() {
+        return role;
+    }
+
+    public void setRole(CoachRoles role) {
+        this.role = role;
+    }
 }

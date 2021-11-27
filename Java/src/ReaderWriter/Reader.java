@@ -118,6 +118,17 @@ public class Reader {
         return splitData[1];
     }
 
+
+    public Coach loadCoachFromTeam(String pathToTeam){
+        Coach output = new Coach();
+
+        
+
+        return output;
+    }
+
+
+
     //Взима пълната информация за човек от щаба
     public String getStaffInfo(String conference, String team, String staff) throws IOException{
         String path = this.path + '/' + conference + '/' + team + "/Staff/" + staff + ".txt";
@@ -133,5 +144,25 @@ public class Reader {
         }
 
         return staffInfo;
+    }
+
+    //Извежда конкретна информация за треньор
+    public String getSpecificStaffInfo(String coachInfo, String typeOfInfo) {
+        String output = "";
+
+        Scanner scan = new Scanner(coachInfo);
+
+        while(scan.hasNextLine()){
+            String dataInRow = scan.nextLine();
+
+            if(dataInRow.contains(typeOfInfo)){
+                output += dataInRow;
+                break;
+            }
+        }
+
+        String[] splitData = output.split("=");
+
+        return splitData[1];
     }
 }
