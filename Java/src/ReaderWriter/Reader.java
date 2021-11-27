@@ -1,5 +1,6 @@
 package ReaderWriter;
 import Classes.*;
+import ProjectUtils.CoachRoles;
 import ProjectUtils.Position;
 
 import java.io.File;
@@ -47,13 +48,13 @@ public class Reader {
             //Gets the full player info
             String currentPlayerInfo = getPlayerInfo(pathToPlayers + "/" + player.getName());
             //Sets the name of the player
-            players[i].setName(getSpecificPlayerInfo(currentPlayerInfo, "name"));
+            players[i].setName(getSpecificInfo(currentPlayerInfo, "name"));
             //Sets the overall of the player
-            players[i].setOverall(Integer.parseInt(getSpecificPlayerInfo(currentPlayerInfo, "overall")));
+            players[i].setOverall(Integer.parseInt(getSpecificInfo(currentPlayerInfo, "overall")));
             //Sets the age of the player
-            players[i].setAge(Integer.parseInt(getSpecificPlayerInfo(currentPlayerInfo, "age")));
+            players[i].setAge(Integer.parseInt(getSpecificInfo(currentPlayerInfo, "age")));
             //Sets the position of the player
-            String position = getSpecificPlayerInfo(currentPlayerInfo, "position");
+            String position = getSpecificInfo(currentPlayerInfo, "position");
             switch (position){
                 case "f":
                     players[i].setPosition(Position.FORWARD);
@@ -70,9 +71,9 @@ public class Reader {
             }
 
             //Sets the number of the player
-            players[i].setNumber(getSpecificPlayerInfo(currentPlayerInfo, "number"));
+            players[i].setNumber(getSpecificInfo(currentPlayerInfo, "number"));
             //Sets the number of the player
-            players[i].setNationality(getSpecificPlayerInfo(currentPlayerInfo, "nationality"));
+            players[i].setNationality(getSpecificInfo(currentPlayerInfo, "nationality"));
 
 
             i++;
@@ -99,10 +100,10 @@ public class Reader {
     }
 
     //Изкарва конкретна информация зза играч
-    public String getSpecificPlayerInfo(String playerInfo, String typeOfInfo) {
+    public String getSpecificInfo(String info, String typeOfInfo) {
         String output = "";
 
-        Scanner scan = new Scanner(playerInfo);
+        Scanner scan = new Scanner(info);
 
         while(scan.hasNextLine()){
             String dataInRow = scan.nextLine();
@@ -119,10 +120,36 @@ public class Reader {
     }
 
 
-    public Coach loadCoachFromTeam(String pathToTeam){
-        Coach output = new Coach();
+    public Coach[] loadCoachesFromTeam(String pathToTeam) throws IOException {
+        Coach[] output = new Coach[3];
+        String pathToCoaches = pathToTeam + "/Coaches";
 
-        
+        File file = new File(pathToCoaches);
+        File[] coachesAsFiles = file.listFiles();
+
+        int i = 0;
+
+        for (File coachAsFile : coachesAsFiles) {
+            String currentCoachInfo = getStaffInfo(pathToCoaches + '/' + coachAsFile.getName());
+            output[i].setName(getSpecificInfo(currentCoachInfo, "name"));
+            output[i].setAge(Integer.parseInt(getSpecificInfo(currentCoachInfo, "age")));
+            output[i].setNationality(getSpecificInfo(currentCoachInfo, "nationality"));
+            output[i].setOverall(Integer.parseInt(getSpecificInfo(currentCoachInfo, "overall")));
+            switch (getSpecificInfo(currentCoachInfo, "role")){
+                case "general":
+                    output[i].setRole(CoachRoles.GENERAL);
+                    break;
+                case "assistant":
+                    output[i].setRole(CoachRoles.ASSISTANT);
+                    break;
+                case "conditional":
+                    output[i].setRole(CoachRoles.CONDITIONAL);
+                    break;
+                default:
+                    System.out.println("Something went wrong!");
+                    break;
+            }
+        }
 
         return output;
     }
@@ -130,8 +157,7 @@ public class Reader {
 
 
     //Взима пълната информация за човек от щаба
-    public String getStaffInfo(String conference, String team, String staff) throws IOException{
-        String path = this.path + '/' + conference + '/' + team + "/Staff/" + staff + ".txt";
+    public String getStaffInfo(String path) throws IOException{
 
 
         String staffInfo = "";
