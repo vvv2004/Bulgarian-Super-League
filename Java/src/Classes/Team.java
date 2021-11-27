@@ -5,20 +5,18 @@ public class Team {
     private String name;
     private String nickname;
     private Player[] players = new Player[16];
-    private Coach coach;
-    private Coach assistantCoach;
+    private Coach[] coaches;
     private Stadium stadium;
 
     private int attackOverall;
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(String name, String nickname, Player[] players, Coach coach, Coach assistantCoach, Stadium stadium) {
+    public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium) {
         this.name = name;
         this.nickname = nickname;
         this.players = players;
-        this.coach = coach;
-        this.assistantCoach = assistantCoach;
+        this.coaches = coaches;
         this.stadium = stadium;
 
         attackOverall = calculateAvgOverall(players, Position.FORWARD);
@@ -30,8 +28,7 @@ public class Team {
         name = null;
         nickname = null;
         players = null;
-        coach = null;
-        assistantCoach = null;
+        coaches = null;
         stadium = null;
     }
 
@@ -43,20 +40,36 @@ public class Team {
         this.players = players;
     }
 
-    public Coach getCoach() {
-        return coach;
+    public String getName() {
+        return name;
     }
 
-    public void setCoach(Coach coach) {
-        this.coach = coach;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Coach getAssistantCoach() {
-        return assistantCoach;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setAssistantCoach(Coach assistantCoach) {
-        this.assistantCoach = assistantCoach;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public Coach[] getCoaches() {
+        return coaches;
+    }
+
+    public void setCoaches(Coach[] coaches) {
+        this.coaches = coaches;
+    }
+
+    public Stadium getStadium() {
+        return stadium;
+    }
+
+    public void setStadium(Stadium stadium) {
+        this.stadium = stadium;
     }
 
     public int getAttackOverall() {
@@ -102,7 +115,7 @@ public class Team {
                 "Име: " + name +
                 "\nСтадион: " + stadium.getName() +
                 "\nПрозвище: " + nickname +
-                "\nГлавен Треньор: " + coach.getName() +
-                "\nАсистент Треньор: " + assistantCoach.getName();
+                "\nГлавен Треньор: " + coaches[0].getName() +
+                "\nАсистент Треньор: " + coaches[1].getName();
     }
 }
