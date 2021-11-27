@@ -8,32 +8,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Reader {
-    private String path;
-    private String teamInfoFile;
-    Scanner scan;
 
-    public Reader(){
-        path = "../Teams";
-        teamInfoFile  = "team_info.txt";
-    }
-
-
-
-    //Взима цялостната информация за отбор
-    public String getTeamInfo(String conference, String team) throws IOException{
-        String path = this.path + '/' + conference + '/' + team + "/team_info.txt";
-
-        String teamInfo = "";
-
-        scan = new Scanner(new File(path));
-
-        while(scan.hasNextLine()){
-            teamInfo += scan.nextLine();
-            teamInfo += '\n';
-        }
-
-        return teamInfo;
-    }
+    public Reader(){}
 
     public Player[] loadPlayersFromTeam(String pathToTeam) throws IOException {
         Player[] players = new Player[16];
@@ -46,7 +22,7 @@ public class Reader {
         for(File player : playersAsFiles){
             players[i] = new Player();
             //Gets the full player info
-            String currentPlayerInfo = getPlayerInfo(pathToPlayers + "/" + player.getName());
+            String currentPlayerInfo = getInfo(pathToPlayers + "/" + player.getName());
             //Sets the name of the player
             players[i].setName(getSpecificInfo(currentPlayerInfo, "name"));
             //Sets the overall of the player
@@ -83,13 +59,12 @@ public class Reader {
     }
 
     //Взима цялостната информация за играч
-    public String getPlayerInfo(String path) throws IOException{
-        String pathToPlayer = path;
-
+    public String getInfo(String path) throws IOException{
+        Scanner scan;
 
         String playerInfo = "";
 
-        scan = new Scanner(new File(pathToPlayer));
+        scan = new Scanner(new File(path));
 
         while(scan.hasNextLine()){
             playerInfo += scan.nextLine();
@@ -130,7 +105,7 @@ public class Reader {
         int i = 0;
 
         for (File coachAsFile : coachesAsFiles) {
-            String currentCoachInfo = getStaffInfo(pathToCoaches + '/' + coachAsFile.getName());
+            String currentCoachInfo = getInfo(pathToCoaches + '/' + coachAsFile.getName());
             output[i].setName(getSpecificInfo(currentCoachInfo, "name"));
             output[i].setAge(Integer.parseInt(getSpecificInfo(currentCoachInfo, "age")));
             output[i].setNationality(getSpecificInfo(currentCoachInfo, "nationality"));
@@ -152,43 +127,5 @@ public class Reader {
         }
 
         return output;
-    }
-
-
-
-    //Взима пълната информация за човек от щаба
-    public String getStaffInfo(String path) throws IOException{
-
-
-        String staffInfo = "";
-
-        scan = new Scanner(new File(path));
-
-        while(scan.hasNextLine()){
-            staffInfo += scan.nextLine();
-            staffInfo += '\n';
-        }
-
-        return staffInfo;
-    }
-
-    //Извежда конкретна информация за треньор
-    public String getSpecificStaffInfo(String coachInfo, String typeOfInfo) {
-        String output = "";
-
-        Scanner scan = new Scanner(coachInfo);
-
-        while(scan.hasNextLine()){
-            String dataInRow = scan.nextLine();
-
-            if(dataInRow.contains(typeOfInfo)){
-                output += dataInRow;
-                break;
-            }
-        }
-
-        String[] splitData = output.split("=");
-
-        return splitData[1];
     }
 }
