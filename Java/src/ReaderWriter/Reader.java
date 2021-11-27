@@ -34,7 +34,7 @@ public class Reader {
         return teamInfo;
     }
 
-    public Player[] getPlayersFromTeam(String pathToTeam) throws IOException {
+    public Player[] loadPlayersFromTeam(String pathToTeam) throws IOException {
         Player[] players = new Player[16];
         String pathToPlayers = pathToTeam + "/Players";
 

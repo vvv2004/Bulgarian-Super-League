@@ -1,5 +1,5 @@
 name=Арда 
-city = Кърджали
+city=Кърджали
 nickname=
 points=0
 goalsScored=0
