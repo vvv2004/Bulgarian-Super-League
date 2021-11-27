@@ -11,6 +11,45 @@ public class Reader {
 
     public Reader(){}
 
+
+
+    //Взима цялостната информация за играч
+    public String getInfo(String path) throws IOException{
+        Scanner scan;
+
+        String playerInfo = "";
+
+        scan = new Scanner(new File(path));
+
+        while(scan.hasNextLine()){
+            playerInfo += scan.nextLine();
+            playerInfo += '\n';
+        }
+
+        return playerInfo;
+    }
+
+    //Изкарва конкретна информация зза играч
+    public String getSpecificInfo(String info, String typeOfInfo) {
+        String output = "";
+
+        Scanner scan = new Scanner(info);
+
+        while(scan.hasNextLine()){
+            String dataInRow = scan.nextLine();
+
+            if(dataInRow.contains(typeOfInfo)){
+                output += dataInRow;
+                break;
+            }
+        }
+
+        String[] splitData = output.split("=");
+
+        return splitData[1];
+    }
+
+
     public Player[] loadPlayersFromTeam(String pathToTeam) throws IOException {
         Player[] players = new Player[16];
         String pathToPlayers = pathToTeam + "/Players";
@@ -58,42 +97,6 @@ public class Reader {
         return players;
     }
 
-    //Взима цялостната информация за играч
-    public String getInfo(String path) throws IOException{
-        Scanner scan;
-
-        String playerInfo = "";
-
-        scan = new Scanner(new File(path));
-
-        while(scan.hasNextLine()){
-            playerInfo += scan.nextLine();
-            playerInfo += '\n';
-        }
-
-        return playerInfo;
-    }
-
-    //Изкарва конкретна информация зза играч
-    public String getSpecificInfo(String info, String typeOfInfo) {
-        String output = "";
-
-        Scanner scan = new Scanner(info);
-
-        while(scan.hasNextLine()){
-            String dataInRow = scan.nextLine();
-
-            if(dataInRow.contains(typeOfInfo)){
-                output += dataInRow;
-                break;
-            }
-        }
-
-        String[] splitData = output.split("=");
-
-        return splitData[1];
-    }
-
 
     public Coach[] loadCoachesFromTeam(String pathToTeam) throws IOException {
         Coach[] output = new Coach[3];
@@ -106,6 +109,8 @@ public class Reader {
 
         for (File coachAsFile : coachesAsFiles) {
             String currentCoachInfo = getInfo(pathToCoaches + '/' + coachAsFile.getName());
+            output[i] = new Coach();
+
             output[i].setName(getSpecificInfo(currentCoachInfo, "name"));
             output[i].setAge(Integer.parseInt(getSpecificInfo(currentCoachInfo, "age")));
             output[i].setNationality(getSpecificInfo(currentCoachInfo, "nationality"));
@@ -124,6 +129,8 @@ public class Reader {
                     System.out.println("Something went wrong!");
                     break;
             }
+
+            i++;
         }
 
         return output;

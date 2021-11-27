@@ -15,9 +15,14 @@ public class TestTeams {
 
         Team ardaKardzhali = new Team();
         ardaKardzhali.setPlayers(reader.loadPlayersFromTeam(teamAddresses.get("Arda Kardzhali")));
+        ardaKardzhali.setCoaches(reader.loadCoachesFromTeam(teamAddresses.get("Arda Kardzhali")));
 
         for (Player player : ardaKardzhali.getPlayers()) {
             System.out.println(player.toString());
+        }
+
+        for (Coach coach : ardaKardzhali.getCoaches()) {
+            System.out.println(coach.toString());
         }
     }
 }
