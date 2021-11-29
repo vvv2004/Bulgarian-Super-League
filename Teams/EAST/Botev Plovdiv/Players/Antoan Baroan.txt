@@ -1,0 +1,6 @@
+name=Антоан Бароан
+age=21
+number=11
+nationality=cameronian
+position=f
+overall=84

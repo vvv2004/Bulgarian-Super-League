@@ -1,0 +1,6 @@
+name=Па Конате
+age=27
+number=3
+nationality=sweden
+position=d
+overall=82

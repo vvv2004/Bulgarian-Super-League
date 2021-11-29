@@ -1,0 +1,6 @@
+name=Пламен Цончев
+age=18
+number=20
+nationality=bulgarian
+position=m
+overall=80

@@ -1,0 +1,6 @@
+name=Тодор Неделев
+age=28
+number=8
+nationality=bulgarian
+position=m
+overall=88

@@ -1,0 +1,6 @@
+name=Мите Цикарски
+age=28
+number=2
+nationality=bulgarian
+position=d
+overall=81

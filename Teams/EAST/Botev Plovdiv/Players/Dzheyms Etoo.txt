@@ -1,0 +1,6 @@
+name=Джеймс Етоо
+age=21
+number=15
+nationality=cameronian
+position=d
+overall=80

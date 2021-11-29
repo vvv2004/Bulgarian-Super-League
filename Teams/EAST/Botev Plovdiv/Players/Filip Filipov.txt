@@ -1,0 +1,6 @@
+name=Филип Филипов
+age=33
+number=5
+nationality=bulgarian
+position=d
+overall=81

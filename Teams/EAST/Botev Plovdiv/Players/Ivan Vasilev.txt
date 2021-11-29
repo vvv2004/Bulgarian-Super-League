@@ -1,0 +1,6 @@
+name=Иван Василев
+age=20
+number=9
+nationality=bulgarian
+position=f
+overall=83

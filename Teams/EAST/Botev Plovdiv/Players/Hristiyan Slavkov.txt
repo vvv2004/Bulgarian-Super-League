@@ -1,0 +1,6 @@
+name=Християн Славков
+age=18
+number=84
+nationality=bulgarian
+position=g
+overall=79

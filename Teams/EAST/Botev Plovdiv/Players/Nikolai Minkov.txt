@@ -1,0 +1,6 @@
+name=Николай Минков
+age=24
+number=17
+nationality=bulgarian
+position=f
+overall=85

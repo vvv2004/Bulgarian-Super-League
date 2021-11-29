@@ -1,0 +1,6 @@
+name=Емануел Току
+age=21
+number=10
+nationality=cameronian
+position=m
+overall=10

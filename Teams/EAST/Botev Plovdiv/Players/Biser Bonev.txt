@@ -1,0 +1,6 @@
+name=Бисер Бонев
+age=18
+number=14
+nationality=bulgarian
+position=m
+overall=81

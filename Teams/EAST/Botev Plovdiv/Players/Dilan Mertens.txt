@@ -1,0 +1,6 @@
+name=Дилан Мертенс
+age=26
+number=6
+nationality=belgium
+position=m
+overall=83

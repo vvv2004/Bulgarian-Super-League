@@ -1,0 +1,6 @@
+name=Маркиньос
+age=22
+number=7
+nationality=cameronian
+position=f
+overall=84

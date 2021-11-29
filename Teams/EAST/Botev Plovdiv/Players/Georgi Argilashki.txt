@@ -1,0 +1,6 @@
+name=Георги Аргилашки
+age=30
+number=1
+nationality=bulgarian
+position=g
+overall=80
