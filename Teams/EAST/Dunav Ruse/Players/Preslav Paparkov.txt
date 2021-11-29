@@ -1,0 +1,6 @@
+name=Преслав Папарков
+age=30
+number=4
+nationality=bulgarian
+position=d
+overall=80

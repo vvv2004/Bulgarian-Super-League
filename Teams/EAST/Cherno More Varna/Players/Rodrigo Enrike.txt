@@ -1,0 +1,6 @@
+name=Родриго Енрике
+age=28
+number=72
+nationality=brazilian
+position=m
+overall=80

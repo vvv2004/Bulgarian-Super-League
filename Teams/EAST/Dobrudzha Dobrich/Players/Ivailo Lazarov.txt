@@ -1,0 +1,6 @@
+name=Ивайло Лазаров
+age=29
+number=9
+nationality=bulgarian
+position=m
+overall=80

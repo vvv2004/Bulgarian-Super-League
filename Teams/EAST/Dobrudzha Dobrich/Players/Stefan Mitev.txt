@@ -1,0 +1,6 @@
+name=Стефан Митев
+age=24
+number=11
+nationality=bulgarian
+position=m
+overall=79

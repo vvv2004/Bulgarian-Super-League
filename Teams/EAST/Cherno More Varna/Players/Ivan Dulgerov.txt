@@ -1,0 +1,6 @@
+name=Иван Дюлгеров
+age=22
+number=25
+nationality=bulgarian
+position=g
+overall=76

@@ -1,0 +1,6 @@
+name=Илиян Капитанов
+age=27
+number=21
+nationality=bulgarian
+position=m
+overall=79

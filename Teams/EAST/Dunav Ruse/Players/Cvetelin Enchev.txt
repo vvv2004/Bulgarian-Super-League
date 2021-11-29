@@ -1,0 +1,6 @@
+name=Цветелин Енчев
+age=27
+number=21
+nationality=bulgarian
+position=g
+overall=81

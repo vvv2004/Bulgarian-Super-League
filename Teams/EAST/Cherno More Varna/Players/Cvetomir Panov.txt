@@ -1,0 +1,6 @@
+name=Цветомир Панов
+age=32
+number=2
+nationality=bulgarian
+position=d
+overall=79

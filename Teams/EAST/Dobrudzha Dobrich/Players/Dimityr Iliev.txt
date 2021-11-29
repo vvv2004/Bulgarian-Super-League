@@ -1,0 +1,6 @@
+name=Димитър Илиев
+age=26
+number=12
+nationality=bulgarian
+position=12
+overall=79

@@ -1,0 +1,6 @@
+name=Искрен Анчев
+age=29
+number=5
+nationality=bulgarian
+position=m
+overall=79

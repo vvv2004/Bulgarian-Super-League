@@ -1,0 +1,6 @@
+name=Фоде Гираси
+age=30
+number=11
+nationality=cameronian
+position=f
+overall=78

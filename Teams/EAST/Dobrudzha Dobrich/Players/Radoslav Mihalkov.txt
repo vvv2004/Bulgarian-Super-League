@@ -1,0 +1,6 @@
+name=Радослав Михалков
+age=24
+number=19
+nationality=bulgarian
+position=f
+overall=78

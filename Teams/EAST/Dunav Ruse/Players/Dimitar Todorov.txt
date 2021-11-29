@@ -1,0 +1,6 @@
+name=Димитър Тодоров
+age=28
+number=20
+nationality=bulgarian
+position=d
+overall=78

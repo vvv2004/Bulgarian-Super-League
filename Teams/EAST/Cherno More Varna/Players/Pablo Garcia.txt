@@ -1,0 +1,6 @@
+name=Пабло Гарсия
+age=28
+number=23
+nationality=spanish
+position=f
+overall=80

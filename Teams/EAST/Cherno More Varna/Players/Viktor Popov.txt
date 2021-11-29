@@ -1,0 +1,6 @@
+name=Виктор Попов
+age=21
+number=6
+nationality=bulgarian
+position=d
+overall=79

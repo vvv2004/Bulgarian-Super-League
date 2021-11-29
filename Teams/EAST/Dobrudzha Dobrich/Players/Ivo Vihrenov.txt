@@ -1,0 +1,6 @@
+name=Иво Вихренов
+age=27
+number=27
+nationality=bulgarian
+position=d
+overall=79

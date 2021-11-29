@@ -1,0 +1,6 @@
+name=Ерай Карадайъ
+age=30
+number=99
+nationality=turkish
+position=f
+overall=78

@@ -1,0 +1,6 @@
+name=Калоян Петров
+age=18
+number=15
+nationality=bulgarian
+position=d
+overall=79

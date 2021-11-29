@@ -1,0 +1,6 @@
+name=Васил Панайотов
+age=31
+number=71
+nationality=bulgarian
+position=m
+overall=78

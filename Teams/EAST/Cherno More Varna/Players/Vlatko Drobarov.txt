@@ -1,0 +1,6 @@
+name=Влатко Дробаров
+age=29
+number=28
+nationality=bulgarian
+position=d
+overall=78

@@ -1,0 +1,6 @@
+name=Евгений Сердюк
+age=25
+number=9
+nationality=ukrainian
+position=f
+overall=79

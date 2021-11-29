@@ -1,0 +1,6 @@
+name=Ахмед Адемов
+age=25
+number=6
+nationality=bulgarian
+position=d
+overall=77

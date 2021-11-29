@@ -1,0 +1,6 @@
+name=Стефан Велев
+age=32
+number=77
+nationality=bulgarian
+position=m
+overall=78

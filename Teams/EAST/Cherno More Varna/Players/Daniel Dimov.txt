@@ -1,0 +1,6 @@
+name=Даниел Димов
+age=32
+number=27
+nationality=bulgarian
+position=d
+overall=80

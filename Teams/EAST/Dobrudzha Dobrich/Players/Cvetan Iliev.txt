@@ -1,0 +1,6 @@
+name=Цветан Илиев
+age=17
+number=31
+nationality=bulgarian
+position=m
+overall=76

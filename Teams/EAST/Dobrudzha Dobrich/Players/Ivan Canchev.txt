@@ -1,0 +1,6 @@
+name=Иван Цачев
+age=32
+number=18
+nationality=bulgarian
+position=f
+overall=80

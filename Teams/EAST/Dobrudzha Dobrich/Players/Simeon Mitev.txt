@@ -1,0 +1,6 @@
+name=Симеон Митев
+age=26
+number=16
+nationality=bulgarian
+position=d
+overall=80

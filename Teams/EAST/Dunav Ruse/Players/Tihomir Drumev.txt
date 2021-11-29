@@ -1,0 +1,6 @@
+name=Тихомир Друмев
+age=24
+number=12
+nationality=bulgarian
+position=g
+overall=79

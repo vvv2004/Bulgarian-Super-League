@@ -1,0 +1,6 @@
+name=Мартин Иванов
+age=22
+number=22
+nationality=bulgarian
+position=d
+overall=80

@@ -1,0 +1,6 @@
+name=Леандро
+age=22
+number=15
+nationality=portuguese
+position=m
+overall=80

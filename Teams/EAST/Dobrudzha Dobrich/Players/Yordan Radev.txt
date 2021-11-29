@@ -1,0 +1,6 @@
+name=Йордан Радев
+age=23
+number=2
+nationality=bulgarian
+position=d
+overall=77

@@ -1,0 +1,6 @@
+name=Латиф Латиф
+age=24
+number=18
+nationality=bulgarian
+position=m
+overall=78

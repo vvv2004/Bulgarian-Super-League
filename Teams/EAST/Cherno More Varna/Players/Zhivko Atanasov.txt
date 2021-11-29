@@ -1,0 +1,6 @@
+name=Живко Атанасов
+age=30
+number=3
+nationality=bulgarian
+position=d
+overall=78

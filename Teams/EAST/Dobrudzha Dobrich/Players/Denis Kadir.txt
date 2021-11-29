@@ -1,0 +1,6 @@
+name=Денис Кадир
+age=19
+number=7
+nationality=bulgarian
+position=f
+overall=77

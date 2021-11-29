@@ -1,0 +1,6 @@
+name=Диян Димов
+age=27
+number=11
+nationality=bulgarian
+position=m
+overall=81

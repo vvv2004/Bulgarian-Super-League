@@ -1,0 +1,6 @@
+name=Зе Гомеш
+age=27
+number=20
+nationality=portuguese
+position=f
+overall=80

@@ -1,0 +1,6 @@
+name=Симеон Дочев
+age=21
+number=7
+nationality=bulgarian
+position=m
+overall=80

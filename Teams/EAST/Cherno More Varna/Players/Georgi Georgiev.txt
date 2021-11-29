@@ -1,0 +1,6 @@
+name=Георги Георгиев
+age=33
+number=22
+nationality=bulgarian
+position=g
+overall=77

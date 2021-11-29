@@ -1,0 +1,6 @@
+name=Мартин Ангелов
+age=19
+number=94
+nationality=bulgarian
+position=m
+overall=78

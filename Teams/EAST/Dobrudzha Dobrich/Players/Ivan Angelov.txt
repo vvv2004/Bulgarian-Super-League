@@ -1,0 +1,6 @@
+name=Иван Ангелов
+age=23
+number=1
+nationality=bulgarian
+position=g
+overall=78

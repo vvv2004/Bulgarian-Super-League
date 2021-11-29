@@ -1,6 +1,0 @@
-name=
-age=
-number=
-nationality=
-position=
-overall=

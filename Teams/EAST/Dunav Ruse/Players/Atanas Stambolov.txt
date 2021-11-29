@@ -1,0 +1,6 @@
+name=Атанас Стамболов
+age=29
+number=10
+nationality=bulgarian
+position=f
+overall=77
