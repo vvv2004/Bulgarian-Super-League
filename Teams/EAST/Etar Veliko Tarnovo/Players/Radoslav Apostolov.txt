@@ -1,0 +1,6 @@
+name=Радослав Апостолов
+age=24
+number=14
+nationality=bulgarian
+position=m
+overall=77

@@ -1,0 +1,6 @@
+name=Мартин Петков
+age=20
+number=16
+nationality=bulgarian
+position=m
+overall=78

@@ -1,0 +1,6 @@
+name=Марин Орлинов
+age=27
+number=1
+nationality=bulgarian
+position=g
+overall=76

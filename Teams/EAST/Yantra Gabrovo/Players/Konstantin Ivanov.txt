@@ -1,0 +1,6 @@
+name=Константин Иванов
+age=21
+number=16
+nationality=bulgarian
+position=d
+overall=77

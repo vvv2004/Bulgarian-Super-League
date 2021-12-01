@@ -1,0 +1,6 @@
+name=Христо Иванов
+age=39
+number=1
+nationality=bulgarian
+position=g
+overall=76

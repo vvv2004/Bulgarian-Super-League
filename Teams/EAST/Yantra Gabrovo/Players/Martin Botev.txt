@@ -1,0 +1,6 @@
+name=Мартин Ботев
+age=20
+number=40
+nationality=bulgarian
+position=f
+overall=77

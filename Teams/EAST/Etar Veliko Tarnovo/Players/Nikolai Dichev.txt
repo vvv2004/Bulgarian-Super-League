@@ -1,0 +1,6 @@
+name=Николай Дичев
+age=29
+number=29
+nationality=bulgarian
+position=d
+overall=77

@@ -1,0 +1,6 @@
+name=Георги Недков 
+age=18
+number=20
+nationality=bulgarian
+position=m
+overall=76

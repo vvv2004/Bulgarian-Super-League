@@ -1,0 +1,6 @@
+name=Костадин Гаджалов
+age=31
+number=5
+nationality=bulgarian
+position=d
+overall=77

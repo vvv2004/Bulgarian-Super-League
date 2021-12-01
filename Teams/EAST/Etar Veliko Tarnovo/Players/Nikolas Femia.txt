@@ -1,0 +1,6 @@
+name=Николас Фемиа
+age=25
+number=10
+nationality=argentine
+position=m
+overall=77

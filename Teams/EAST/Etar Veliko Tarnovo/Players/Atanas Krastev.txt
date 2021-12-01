@@ -1,0 +1,6 @@
+name=Атанас Кръстев
+age=28
+number=21
+nationality=bulgarian
+position=d
+overall=76

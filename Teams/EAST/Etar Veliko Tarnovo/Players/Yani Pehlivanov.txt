@@ -1,0 +1,6 @@
+name=Яни Пехливанов
+age=33
+number=20
+nationality=bulgarian
+position=m
+overall=77

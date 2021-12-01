@@ -1,0 +1,6 @@
+name=Преслав Петров
+age=24
+number=25
+nationality=bulgarian
+position=d
+overall=76

@@ -1,0 +1,6 @@
+name=Петър Казаков
+age=26
+number=6
+nationality=bulgarian
+position=m
+overall=79

@@ -1,0 +1,6 @@
+name=Виктор Кунев
+age=19
+number=11
+nationality=bulgarian
+position=f
+overall=76

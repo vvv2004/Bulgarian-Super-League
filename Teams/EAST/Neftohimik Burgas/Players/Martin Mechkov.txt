@@ -1,0 +1,6 @@
+name=Мартин Мечков
+age=16
+number=88
+nationality=bulgarian
+position=f
+overall=74

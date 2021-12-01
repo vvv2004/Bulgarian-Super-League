@@ -1,0 +1,6 @@
+name=Сибил Карагьозов
+age=29
+number=3
+nationality=turkish
+position=d
+overall=76

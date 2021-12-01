@@ -1,0 +1,6 @@
+name=Мартин Ангелов
+age=32
+number=8
+nationality=bulgarian
+position=d
+overall=78

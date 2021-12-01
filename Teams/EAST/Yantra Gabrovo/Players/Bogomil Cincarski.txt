@@ -1,0 +1,6 @@
+name=Богомил Цинцарски
+age=24
+number=12
+nationality=bulgarian
+position=g
+overall=77

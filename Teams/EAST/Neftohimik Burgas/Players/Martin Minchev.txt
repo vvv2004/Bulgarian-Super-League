@@ -1,0 +1,6 @@
+name=Мартин Минчев
+age=22
+number=99
+nationality=bulgarian
+position=d
+overall=75

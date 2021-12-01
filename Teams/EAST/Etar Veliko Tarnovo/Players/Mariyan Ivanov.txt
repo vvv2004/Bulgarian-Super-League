@@ -1,0 +1,6 @@
+name=Мариян Иванов
+age=31
+number=26
+nationality=bulgarian
+position=d
+overall=76

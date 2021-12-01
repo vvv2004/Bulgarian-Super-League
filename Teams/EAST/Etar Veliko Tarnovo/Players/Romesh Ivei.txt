@@ -1,0 +1,6 @@
+name=Ромеш Ивей
+age=27
+number=17
+nationality=panama
+position=m
+overall=76

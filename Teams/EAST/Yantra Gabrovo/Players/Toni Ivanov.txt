@@ -1,0 +1,6 @@
+name=Тони Иванов
+age=22
+number=71
+nationality=bulgarian
+position=f
+overall=77

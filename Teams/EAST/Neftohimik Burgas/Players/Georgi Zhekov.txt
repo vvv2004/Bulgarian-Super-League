@@ -1,0 +1,6 @@
+name=Георги Жеков
+age=26
+number=9
+nationality=bulgarian
+position=m
+overall=77

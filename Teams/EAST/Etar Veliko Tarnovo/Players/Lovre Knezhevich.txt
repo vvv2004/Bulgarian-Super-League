@@ -1,0 +1,6 @@
+name=Ловре Кнежевич
+age=23
+number=22
+nationality=croatian
+position=f
+overall=78

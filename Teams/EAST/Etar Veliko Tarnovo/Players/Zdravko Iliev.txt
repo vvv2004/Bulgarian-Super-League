@@ -1,0 +1,6 @@
+name=Здравко Илиев
+age=37
+number=84
+nationality=bulgarian
+position=d
+overall=77

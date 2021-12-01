@@ -1,0 +1,6 @@
+name=Петър Рахнев
+age=18
+number=33
+nationality=bulgarian
+position=g
+overall=75

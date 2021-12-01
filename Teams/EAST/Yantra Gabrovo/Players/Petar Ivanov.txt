@@ -1,0 +1,6 @@
+name=Петър Иванов
+age=21
+number=23
+nationality=bulgarian
+position=g
+overall=75

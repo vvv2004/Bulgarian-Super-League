@@ -1,0 +1,6 @@
+name=Христо Димитров
+age=20
+number=23
+nationality=bulgarian
+position=f
+overall=77

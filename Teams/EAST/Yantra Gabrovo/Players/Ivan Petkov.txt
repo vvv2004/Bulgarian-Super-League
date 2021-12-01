@@ -1,0 +1,6 @@
+name=Иван Петков
+age=36
+number=9
+nationality=bulgarian
+position=f
+overall=78

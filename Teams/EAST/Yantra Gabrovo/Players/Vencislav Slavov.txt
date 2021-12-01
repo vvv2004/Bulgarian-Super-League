@@ -1,0 +1,6 @@
+name=Венцислав Славов
+age=22
+number=18
+nationality=bulgarian
+position=m
+overall=77

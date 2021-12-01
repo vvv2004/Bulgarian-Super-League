@@ -1,0 +1,6 @@
+name=Калоян Стефанов
+age=24
+number=69
+nationality=bulgarian
+position=m
+overall=75

@@ -1,0 +1,6 @@
+name=Олджай Алиев
+age=22
+number=92
+nationality=bulgarian
+position=f
+overall=74

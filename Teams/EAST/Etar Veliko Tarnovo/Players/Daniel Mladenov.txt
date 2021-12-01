@@ -1,0 +1,6 @@
+name=Даниел Младенов
+age=34
+number=11
+nationality=bulgarian
+position=f
+overall=76

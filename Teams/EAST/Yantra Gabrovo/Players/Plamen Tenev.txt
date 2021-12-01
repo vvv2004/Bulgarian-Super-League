@@ -1,0 +1,6 @@
+name=Пламен Тенев
+age=26
+number=4
+nationality=bulgarian
+position=d
+overall=77

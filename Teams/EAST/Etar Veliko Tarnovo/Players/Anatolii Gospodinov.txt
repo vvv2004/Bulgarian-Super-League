@@ -1,0 +1,6 @@
+name=Анатолий Господинов
+age=27
+number=13
+nationality=bulgarian
+position=g
+overall=75

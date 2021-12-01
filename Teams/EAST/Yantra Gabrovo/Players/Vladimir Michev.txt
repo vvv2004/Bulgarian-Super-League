@@ -1,0 +1,6 @@
+name=Владимир Мичев
+age=36
+number=73
+nationality=bulgarian
+position=m
+overall=74
