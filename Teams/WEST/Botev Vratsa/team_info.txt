@@ -1,6 +1,0 @@
-name=Botev Vratsa
-nickname=
-points=0
-goalsScored=0
-goalsAllowed=0
-goalDifference=0

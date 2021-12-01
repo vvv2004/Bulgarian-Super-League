@@ -1,6 +1,0 @@
-name=Bdin Vidin
-nickname=null
-points=0
-goalsScored=0
-goalsAllowed=0
-goalDifference=0
