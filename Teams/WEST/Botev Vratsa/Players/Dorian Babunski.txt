@@ -1,0 +1,6 @@
+name=Дориан Бабунски
+age=21
+number = 37
+nationality=bulgarian
+position=d
+overall=72

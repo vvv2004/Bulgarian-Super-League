@@ -1,0 +1,6 @@
+name=Валери Христов
+age= 19
+number= 15
+nationality= bulgarian
+position=f
+overall= 71

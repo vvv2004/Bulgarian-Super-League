@@ -1,0 +1,6 @@
+name= Мирослав Маринов
+age= 23
+number= 9
+nationality= bulgarian
+position= f
+overall=72

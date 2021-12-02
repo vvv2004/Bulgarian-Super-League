@@ -1,0 +1,6 @@
+name=Мартин Смоленски
+age=21
+number= 16
+nationality=bulgarian
+position=g
+overall=65

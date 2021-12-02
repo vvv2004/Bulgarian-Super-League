@@ -1,0 +1,6 @@
+name= Димитър Петков
+age= 22
+number=2
+nationality=bulgarian
+position= d
+overall= 67

@@ -1,0 +1,6 @@
+name=Светослав Дяков
+age=27
+number= 30
+nationality=bulgarian
+position=m
+overall=80

@@ -1,0 +1,6 @@
+name= Димитър Владимиров
+age= 28
+number= 5
+nationality= bulgarian
+position= d
+overall= 68

@@ -1,0 +1,6 @@
+name=Димитър Савов
+age=21
+number= 8
+nationality=bulgarian
+position=f
+overall=73

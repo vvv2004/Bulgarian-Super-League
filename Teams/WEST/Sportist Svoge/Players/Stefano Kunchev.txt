@@ -1,0 +1,6 @@
+name= Stefano Kunchev
+age= 22
+number=99
+nationality=bulgarian
+position= g
+overall= 71

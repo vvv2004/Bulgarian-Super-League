@@ -1,0 +1,6 @@
+name=Преслав Антонов
+age=23
+number= 8
+nationality=bulgarian
+position=m
+overall=71

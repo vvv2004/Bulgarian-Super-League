@@ -1,0 +1,6 @@
+name=Йоан Бауренски
+age=21
+number= 26
+nationality= bulgarian
+position= m
+overall=67

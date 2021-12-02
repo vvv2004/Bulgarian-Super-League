@@ -1,0 +1,6 @@
+name= Галин Ташев
+age= 26
+number=6
+nationality=bulgarian
+position= m
+overall= 67

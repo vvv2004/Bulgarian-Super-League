@@ -1,0 +1,6 @@
+name=Валентино Ансое
+age=25
+number= 22
+nationality=bulgarian
+position=d
+overall=66

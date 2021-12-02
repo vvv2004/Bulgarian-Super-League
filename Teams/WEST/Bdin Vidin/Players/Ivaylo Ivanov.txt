@@ -1,0 +1,6 @@
+name= Ивайло Иванов
+age= 27
+number= 8
+nationality= bulgarian
+position= m
+overall= 73

@@ -1,0 +1,6 @@
+name=Светослав Вуцов
+age=22
+number= 25
+nationality=bulgarian
+position=g
+overall=69

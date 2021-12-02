@@ -1,0 +1,6 @@
+name= Цветелин Иванов
+age= 21
+number= 80
+nationality= bulgarian 
+position= d
+overall= 70

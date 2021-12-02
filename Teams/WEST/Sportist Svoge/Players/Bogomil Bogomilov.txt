@@ -1,0 +1,6 @@
+name= Богомил Богомилов
+age= 22
+number=1
+nationality=bulgarian
+position= g
+overall= 67

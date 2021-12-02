@@ -1,0 +1,6 @@
+name=Иван Митрев
+age= 20
+number= 70
+nationality= bulgarian
+position= m
+overall= 72
