@@ -1,0 +1,6 @@
+name=Димитър Митков
+age=21
+number=45
+nationality=bulgarian
+position=f
+overall=86

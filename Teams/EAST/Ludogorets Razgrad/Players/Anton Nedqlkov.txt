@@ -1,0 +1,6 @@
+name=Антон Недялков
+age=28
+number=3
+nationality=bulgarian
+position=d
+overall=86

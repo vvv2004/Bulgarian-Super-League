@@ -1,6 +1,6 @@
 name=Добруджа
 city=Добрич
-nickname=
+nickname=Жълто-зелените
 points=0
 goalsScored=0
 goalsAllowed=0

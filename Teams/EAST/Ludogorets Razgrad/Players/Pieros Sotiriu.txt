@@ -1,0 +1,6 @@
+name=Пиерос Сотириу
+age=28
+number=19
+nationality=greek
+position=f
+overall=84

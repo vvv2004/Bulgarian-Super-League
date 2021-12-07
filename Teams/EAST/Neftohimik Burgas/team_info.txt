@@ -1,6 +1,6 @@
 name=Нефтохимик
 city=Бургас
-nickname=
+nickname=Нафта
 points=0
 goalsScored=0
 goalsAllowed=0

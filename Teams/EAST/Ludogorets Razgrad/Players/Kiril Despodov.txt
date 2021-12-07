@@ -1,0 +1,6 @@
+name=Кирил Десподов
+age=25
+number=11
+nationality=bulgarian
+position=f
+overall=90

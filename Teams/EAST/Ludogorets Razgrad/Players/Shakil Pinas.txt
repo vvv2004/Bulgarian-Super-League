@@ -1,0 +1,6 @@
+name=Шакил Пинас
+age=23
+number=6
+nationality=netherlands
+position=d
+overall=84

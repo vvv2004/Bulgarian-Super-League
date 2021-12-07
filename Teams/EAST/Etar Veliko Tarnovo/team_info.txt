@@ -1,6 +1,6 @@
 name=Етър
 city=Велико Търново
-nickname=
+nickname=Болярите
 points=0
 goalsScored=0
 goalsAllowed=0

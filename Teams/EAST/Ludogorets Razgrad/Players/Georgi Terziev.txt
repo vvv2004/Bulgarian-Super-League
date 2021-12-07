@@ -1,0 +1,6 @@
+name=Георги Терзиев
+age=29
+number=5
+nationality=bulgarian
+position=d
+overall=85

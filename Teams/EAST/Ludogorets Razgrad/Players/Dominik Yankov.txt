@@ -1,0 +1,6 @@
+name=Димитър Янков
+age=21
+number=64
+nationality=bulgarian
+position=m
+overall=83

@@ -1,0 +1,5 @@
+name=Франо Леко
+role=conditional
+age=50
+nationality=french
+overall=84

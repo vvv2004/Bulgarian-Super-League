@@ -1,6 +1,6 @@
 name=Арда 
 city=Кърджали
-nickname=
+nickname=Сините Вълци
 points=0
 goalsScored=0
 goalsAllowed=0

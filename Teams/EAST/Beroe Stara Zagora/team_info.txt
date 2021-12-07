@@ -1,6 +1,6 @@
 name=Берое
 city=Стара Загора
-nickname=
+nickname=Зелените
 points=0
 goalsScored=0
 goalsAllowed=0

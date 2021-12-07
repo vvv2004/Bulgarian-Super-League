@@ -1,0 +1,6 @@
+name=Стефан Баджи
+age=31
+number=25
+nationality=senegal
+position=m
+overall=85

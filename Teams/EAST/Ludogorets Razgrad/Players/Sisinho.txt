@@ -1,0 +1,6 @@
+name=Сисиньо
+age=23
+number=4
+nationality=brazil
+position=d
+overall=86

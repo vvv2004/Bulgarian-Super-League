@@ -1,7 +1,0 @@
-name=Волов
-city=Шумен
-nickname=
-points=0
-goalsScored=0
-goalsAllowed=0
-goalDifference=0

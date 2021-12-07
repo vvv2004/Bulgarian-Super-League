@@ -1,0 +1,6 @@
+name=Елвис Ману
+age=28
+number=10
+nationality=netherlands
+position=m
+overall=85

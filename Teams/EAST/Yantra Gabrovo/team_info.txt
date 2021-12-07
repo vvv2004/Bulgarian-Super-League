@@ -1,6 +1,6 @@
 name=Янтра
 city=Габраво
-nickname=
+nickname=Габровци
 points=0
 goalsScored=0
 goalsAllowed=0

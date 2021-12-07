@@ -1,6 +1,6 @@
 name=Дунав
 city=Русе
-nickname=
+nickname=Драконите
 points=0
 goalsScored=0
 goalsAllowed=0

@@ -1,0 +1,5 @@
+name=Станислав Генчев
+role=general
+age=40
+nationality=bulgarian
+overall=86

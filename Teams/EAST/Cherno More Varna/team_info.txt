@@ -1,6 +1,6 @@
 name=Черно Море
 city=Варна
-nickname=
+nickname=Моряците
 points=0
 goalsScored=0
 goalsAllowed=0

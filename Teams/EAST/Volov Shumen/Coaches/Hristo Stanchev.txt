@@ -1,5 +1,0 @@
-name=Христо Станчев
-role=conditional
-age=48
-nationality=Bulgarian
-overall=73

@@ -1,0 +1,7 @@
+name=Лудогорец 
+city=Разград
+nickname=Орлите
+points=0
+goalsScored=0
+goalsAllowed=0
+goalDifference=0

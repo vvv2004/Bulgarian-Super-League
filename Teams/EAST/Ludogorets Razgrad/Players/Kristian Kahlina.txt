@@ -1,0 +1,6 @@
+name=Кристиан Кахлина
+age=29
+number=71
+nationality=croatia
+position=g
+overall=83

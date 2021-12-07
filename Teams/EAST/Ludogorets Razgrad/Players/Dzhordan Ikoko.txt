@@ -1,0 +1,6 @@
+name=Джордан Икоко
+age=27
+number=22
+nationality=french
+position=d
+overall=83

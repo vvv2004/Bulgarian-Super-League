@@ -1,0 +1,6 @@
+name=Ихинио Марин
+age=28
+number=9
+nationality=spain
+position=f
+overall=87

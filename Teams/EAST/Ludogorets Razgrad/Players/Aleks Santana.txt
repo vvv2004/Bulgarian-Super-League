@@ -1,0 +1,6 @@
+name=Алекс Сантана
+age=26
+number=7
+nationality=brazil
+position=m
+overall=86

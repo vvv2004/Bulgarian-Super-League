@@ -1,0 +1,6 @@
+name=Серджио Падт
+age=31
+number=1
+nationality=netherlands
+position=g
+overall=84
