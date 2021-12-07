@@ -4,6 +4,7 @@ import ProjectUtils.*;
 public class Team {
     private String name;
     private String nickname;
+    private String city;
     private Player[] players = new Player[16];
     private Coach[] coaches;
     private Stadium stadium;
@@ -12,12 +13,13 @@ public class Team {
     private int midfieldOverall;
     private int defenceOverall;
 
-    public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium) {
+    public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium, String city) {
         this.name = name;
         this.nickname = nickname;
         this.players = players;
         this.coaches = coaches;
         this.stadium = stadium;
+        this.city = city;
 
         attackOverall = calculateAvgOverall(players, Position.FORWARD);
         midfieldOverall = calculateAvgOverall(players, Position.MIDFIELDER);
@@ -30,6 +32,14 @@ public class Team {
         players = null;
         coaches = null;
         stadium = null;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public Player[] getPlayers() {
@@ -96,7 +106,7 @@ public class Team {
         this.defenceOverall = defenceOverall;
     }
 
-    private int calculateAvgOverall(Player[] players, Position position){
+    public int calculateAvgOverall(Player[] players, Position position){
         int avg = 0;
         int counter = 0;
 

@@ -1,4 +1,5 @@
 package ProjectUtils;
 
-public class Teams {
+public enum Teams {
+
 }
