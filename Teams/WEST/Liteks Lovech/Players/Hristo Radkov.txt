@@ -1,0 +1,6 @@
+name= Христо Радков
+age= 20
+number= 3
+nationality= bulgarian
+position=d
+overall= 69

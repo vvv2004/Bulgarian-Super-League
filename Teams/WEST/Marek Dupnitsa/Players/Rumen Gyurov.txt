@@ -1,0 +1,6 @@
+name=Румен Гюров
+age=27
+number= 70
+nationality= bulgarian
+position= m
+overall= 68

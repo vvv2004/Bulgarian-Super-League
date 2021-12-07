@@ -1,0 +1,5 @@
+name=Петър Боянов
+role=assistant
+age=30
+nationality=bulgarian
+overall=67

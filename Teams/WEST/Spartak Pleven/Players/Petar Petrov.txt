@@ -1,0 +1,6 @@
+name=Петър Петров
+age=28
+number= 7
+nationality=bulgarian
+position=m
+overall=67

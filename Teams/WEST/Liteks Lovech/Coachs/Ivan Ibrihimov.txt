@@ -1,0 +1,5 @@
+name= Иван Ибришимов
+role= assistant
+age= 45
+nationality= bulgarian
+overall= 70

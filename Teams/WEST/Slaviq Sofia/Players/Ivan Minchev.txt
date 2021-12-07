@@ -1,0 +1,6 @@
+name=Иван Минчев
+age=22
+number= 9
+nationality=bulgarian
+position=m
+overall=69

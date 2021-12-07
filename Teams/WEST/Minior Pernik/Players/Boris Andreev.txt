@@ -1,0 +1,6 @@
+name= Борис Андреев
+age=22
+number= 4
+nationality=bulgarian
+position=d
+overall=72

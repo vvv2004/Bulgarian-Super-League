@@ -1,0 +1,6 @@
+name= Йоан Макариополски
+age= 21
+number= 17
+nationality= bulgarian
+position= d
+overall= 70

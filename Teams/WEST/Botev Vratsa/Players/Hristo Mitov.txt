@@ -1,0 +1,6 @@
+name= Христо Митов
+age= 19
+number= 12
+nationality= bulgarian
+position= d
+overall= 67

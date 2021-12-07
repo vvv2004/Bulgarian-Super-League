@@ -1,0 +1,5 @@
+name=Янек Кючуков
+role= general
+age= 42
+nationality= bulgarian
+overall= 73

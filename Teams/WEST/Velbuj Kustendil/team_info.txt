@@ -1,0 +1,7 @@
+name=Велбъжд
+city=Кюстендил
+nickname=Осоговци
+points=0
+goalsScored=0
+goalsAllowed=0
+goalDifference=0

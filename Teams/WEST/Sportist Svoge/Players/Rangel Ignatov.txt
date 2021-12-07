@@ -1,0 +1,6 @@
+name= Рангел Игнатов
+age= 25
+number=70
+nationality=bulgarian
+position= d
+overall= 70

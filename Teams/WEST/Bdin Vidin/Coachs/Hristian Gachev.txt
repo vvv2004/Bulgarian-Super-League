@@ -1,0 +1,5 @@
+name= Християн Гачев
+role= conditional
+age= 36
+nationality= bulgarian
+overall= 67

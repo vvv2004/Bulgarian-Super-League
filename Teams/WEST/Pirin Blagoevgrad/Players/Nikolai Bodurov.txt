@@ -1,0 +1,6 @@
+name=Николай Бодуров
+age=27
+number= 7
+nationality=bulgarian
+position=m
+overall=78

@@ -1,0 +1,6 @@
+name= Мартин Тодоров
+age= 18
+number=18
+nationality=bulgarian
+position= m
+overall= 66

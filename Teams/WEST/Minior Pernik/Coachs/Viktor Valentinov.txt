@@ -1,0 +1,5 @@
+name=Виктор Валентинов
+role=conditional
+age=43
+nationality=bulgarian
+overall=72

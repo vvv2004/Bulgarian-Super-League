@@ -1,0 +1,6 @@
+name= Радослав Йорданов
+age= 26
+number=12
+nationality=bulgarian
+position= f
+overall= 74

@@ -1,0 +1,5 @@
+name=Васил Минков
+role=conditional
+age=32
+nationality=bulgarian
+overall=68

@@ -1,0 +1,5 @@
+name=Алекс Георгиев
+role=assistant
+age=38
+nationality=bulgarian
+overall=68

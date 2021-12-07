@@ -1,0 +1,5 @@
+name=Пламен Костов
+role=general
+age=42
+nationality=bulgarian
+overall=69

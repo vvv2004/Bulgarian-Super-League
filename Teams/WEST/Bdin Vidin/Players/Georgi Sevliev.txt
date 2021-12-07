@@ -1,0 +1,6 @@
+name= Георги Севлиев
+age= 25
+number=4
+nationality= bulgarian
+position= d
+overall= 72

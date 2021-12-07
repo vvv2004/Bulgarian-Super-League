@@ -1,0 +1,6 @@
+name=Петър Петров
+age=21
+number=10
+nationality=bulgarian
+position=f
+overall=73

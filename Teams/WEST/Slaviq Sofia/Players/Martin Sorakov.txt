@@ -1,0 +1,6 @@
+name=Мартин Сораков
+age=19
+number= 16
+nationality=bulgarian
+position=f
+overall=71

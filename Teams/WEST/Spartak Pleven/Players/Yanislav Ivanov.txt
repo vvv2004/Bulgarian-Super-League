@@ -1,0 +1,6 @@
+name=Янислав Иванов
+age=29
+number= 26
+nationality=bulgarian
+position=m
+overall=68

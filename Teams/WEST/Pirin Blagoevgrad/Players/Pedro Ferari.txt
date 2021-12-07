@@ -1,0 +1,6 @@
+name=Педро Ферари
+age=29
+number= 9
+nationality=Spaniard
+position=f
+overall=72

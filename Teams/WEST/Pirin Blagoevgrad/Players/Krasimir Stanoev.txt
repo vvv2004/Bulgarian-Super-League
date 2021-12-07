@@ -1,0 +1,6 @@
+name=Красимир Станоев
+age=19
+number= 3
+nationality=bulgarian
+position= d
+overall=68

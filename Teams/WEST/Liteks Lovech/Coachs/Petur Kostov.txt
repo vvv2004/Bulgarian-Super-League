@@ -1,0 +1,5 @@
+name=Петър Костов
+role= general
+age= 46
+nationality= bulgarian
+overall= 71

@@ -1,0 +1,5 @@
+name= Георги Дерменджиев
+role= conditional
+age= 25
+nationality= bulgarian
+overall= 41

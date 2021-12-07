@@ -1,0 +1,6 @@
+name= Александър Бучков
+age= 18
+number= 1
+nationality= bulgarian
+position= g
+overall= 72

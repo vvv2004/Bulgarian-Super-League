@@ -1,0 +1,5 @@
+name=Пламен Гетов
+role=general
+age=30
+nationality=bulgarian
+overall=71

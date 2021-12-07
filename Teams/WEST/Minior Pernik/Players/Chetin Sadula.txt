@@ -1,0 +1,6 @@
+name=Четин Садула
+age=18
+number=7
+nationality=Colombian
+position=m
+overall=70

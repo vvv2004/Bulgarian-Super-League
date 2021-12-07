@@ -1,0 +1,6 @@
+name= Валентин Минчев
+age= 17
+number=69
+nationality=bulgarian
+position= m
+overall= 71

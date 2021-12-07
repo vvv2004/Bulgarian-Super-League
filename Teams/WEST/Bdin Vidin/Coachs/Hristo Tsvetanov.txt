@@ -1,0 +1,5 @@
+name= Христо Цветанов
+role= assistant
+age= 42
+nationality= bulgarian
+overall= 68

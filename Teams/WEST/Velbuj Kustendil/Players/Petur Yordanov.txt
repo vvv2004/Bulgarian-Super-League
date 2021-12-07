@@ -1,0 +1,6 @@
+name= Петър Йорданов
+age= 26
+number=11
+nationality=bulgarian
+position= f
+overall=71

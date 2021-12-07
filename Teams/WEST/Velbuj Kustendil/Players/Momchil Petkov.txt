@@ -1,0 +1,6 @@
+name= Момчил Петков
+age= 25
+number=10
+nationality=bulgarian
+position= f
+overall= 80

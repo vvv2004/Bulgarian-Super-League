@@ -1,0 +1,6 @@
+name= Христо Смирненски
+age= 20
+number=3
+nationality=bulgarian
+position= d
+overall= 68

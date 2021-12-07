@@ -1,0 +1,6 @@
+name= Симеон Димитров
+age= 20
+number=67
+nationality=bulgarian
+position= d
+overall= 67
