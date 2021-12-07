@@ -1,0 +1,5 @@
+name=Асен Нешев
+role=assistant
+age=27
+nationality=bulgarian
+overall=71

@@ -1,6 +1,6 @@
-name= Георги Георгиев
-age= 22
-number= 7 
-nationality= bulgarian
-position= m
-overall= 70
+name=Георги Георгиев
+age=22
+number=7 
+nationality=bulgarian
+position=m
+overall=70

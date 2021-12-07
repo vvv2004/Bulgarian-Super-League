@@ -1,6 +1,6 @@
-name= Чавдар Ивайлов
-age= 22
+name=Чавдар Ивайлов
+age=22
 number=2
 nationality=bulgarian
-position= d
-overall= 67
+position=d
+overall=67

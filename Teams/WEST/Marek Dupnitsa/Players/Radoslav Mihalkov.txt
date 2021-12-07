@@ -3,4 +3,4 @@ age=23
 number=10
 nationality=bulgarian
 position=f
-overall= 74
+overall=74

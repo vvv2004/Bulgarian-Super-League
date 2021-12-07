@@ -1,6 +1,6 @@
 name=Емил Цанов
 age=19
-number= 9
+number=9
 nationality=bulgarian
 position=f
 overall=69

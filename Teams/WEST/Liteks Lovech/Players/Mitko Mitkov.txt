@@ -1,5 +1,5 @@
-name= Митко Митков
+name=Митко Митков
 age=21
 nationality=bulgarian
-position= m
+position=m
 overall=72

@@ -1,5 +1,0 @@
-name= Вергил Янев
-role= assistant
-age= 51
-nationality= bulgarian
-overall=78

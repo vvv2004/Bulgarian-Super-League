@@ -1,6 +1,6 @@
-name= Мирослав Ризов 
-age= 28
-number= 9
-nationality= bulgarian
-position= m
-overall= 71
+name=Мирослав Ризов 
+age=28
+number=9
+nationality=bulgarian
+position=m
+overall=71

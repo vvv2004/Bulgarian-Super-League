@@ -1,5 +1,0 @@
-name= Боян Васев
-role= conditional
-age= 44
-nationality= bulgarian
-overall= 65

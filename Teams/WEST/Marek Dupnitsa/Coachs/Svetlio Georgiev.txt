@@ -1,5 +1,0 @@
-name= Светльо Георгиев
-role= conditional
-age= 43
-nationality= bulgarian
-overall= 72

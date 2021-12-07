@@ -1,0 +1,5 @@
+name=Борис Димитров
+role=general
+age=43
+nationality=bulgarian
+overall=68

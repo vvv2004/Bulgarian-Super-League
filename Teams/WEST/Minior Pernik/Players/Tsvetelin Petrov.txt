@@ -1,6 +1,6 @@
 name=Цветелин Петров
 age=19
-number= 62
+number=62
 nationality=bulgarian
 position=f
 overall=72

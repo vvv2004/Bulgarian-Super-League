@@ -1,6 +1,6 @@
 name=Андреа Хрисстов
 age=21
-number= 1
+number=1
 nationality=bulgarian
 position=g
 overall=79

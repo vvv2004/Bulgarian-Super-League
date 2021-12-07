@@ -1,0 +1,5 @@
+name=Антонио Александров
+role=assistant
+age=29
+nationality=bulgarian
+overall=67

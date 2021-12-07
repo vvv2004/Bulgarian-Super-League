@@ -1,6 +1,6 @@
-name= Виктор Райчев
+name=Виктор Райчев
 age=21
-number= 29
+number=29
 nationality=bulgarian
 position=f
 overall=67

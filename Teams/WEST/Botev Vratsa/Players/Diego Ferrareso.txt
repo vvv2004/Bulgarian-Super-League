@@ -1,6 +1,6 @@
-name= Диего Фераресо
-age= 27
+name=Диего Фераресо
+age=27
 number=3
-nationality= brazilian
+nationality=brazilian
 position= d
-overall=71
+overall=71	

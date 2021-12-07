@@ -1,5 +1,0 @@
-name= Йордан Капитански
-role= conditional
-age= 48
-nationality= bulgarian
-overall= 68

@@ -1,6 +1,6 @@
-name= Димитър Илиев
-age= 24
-number= 5
-nationality= bulgarian 
-position= d 
-overall= 71
+name=Димитър Илиев
+age=24
+number=5
+nationality=bulgarian 
+position=d 
+overall=71

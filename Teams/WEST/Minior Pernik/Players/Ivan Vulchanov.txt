@@ -1,4 +1,4 @@
-name= Иван Вълчанов
+name=Иван Вълчанов
 age=21
 number=12
 nationality=bulgarian

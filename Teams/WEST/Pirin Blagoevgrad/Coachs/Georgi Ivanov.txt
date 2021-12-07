@@ -1,5 +1,0 @@
-name= Пламен Костов
-role= conditional
-age= 36
-nationality= bulgarian
-overall=68

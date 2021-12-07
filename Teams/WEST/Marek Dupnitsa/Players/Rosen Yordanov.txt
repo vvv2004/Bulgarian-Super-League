@@ -1,6 +1,6 @@
-name= Росен Йорданов
+name=Росен Йорданов
 age=24
-number= 11
-nationality= bulgarian
-position= f
+number=11
+nationality=bulgarian
+position=f
 overall=75

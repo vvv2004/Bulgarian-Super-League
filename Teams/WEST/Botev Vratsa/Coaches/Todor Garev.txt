@@ -1,0 +1,5 @@
+name=Тодор Гарев
+role=conditional
+age=43
+nationality=bulgarian
+overall= 67

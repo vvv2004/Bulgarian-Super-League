@@ -1,6 +1,6 @@
-name= Християн Петров
-age= 19
-number= 2 
-nationality= bulgarian
-position= d
-overall= 68
+name=Християн Петров
+age=19
+number=2 
+nationality=bulgarian
+position=d
+overall=68

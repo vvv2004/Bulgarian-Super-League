@@ -19,6 +19,7 @@ public class TeamAddresses {
         hashMap.put("Neftohimik Burgas", "../Teams/EAST/Neftohimik Burgas");
         hashMap.put("Ludogorets Razgrad", "../Teams/EAST/Ludogorets Razgrad");
         hashMap.put("Yantra Gabrovo", "../Teams/EAST/Yantra Gabrovo");
+        hashMap.put("Bdin Vidin", "../Teams/WEST/Bdin Vidin");
 
 
 

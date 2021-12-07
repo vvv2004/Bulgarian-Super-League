@@ -1,6 +1,6 @@
-name= Пламен Николов
+name=Пламен Николов
 age=21
 number=17
-nationality= bulgarian
-position= f
-overall= 68
+nationality=bulgarian
+position=f
+overall=68

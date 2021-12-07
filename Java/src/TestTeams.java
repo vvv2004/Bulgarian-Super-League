@@ -13,7 +13,7 @@ public class TestTeams {
         Reader reader = new Reader();
 
 
-        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Ludogorets Razgrad"));
+        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Yantra Gabrovo"));
 
 
         for (Player player : dunavRuse.getPlayers()) {

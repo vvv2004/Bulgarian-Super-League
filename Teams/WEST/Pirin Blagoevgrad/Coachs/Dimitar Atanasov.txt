@@ -1,5 +1,0 @@
-name= Димитър Атанасов
-role= general
-age= 42
-nationality= bulgarian
-overall= 70

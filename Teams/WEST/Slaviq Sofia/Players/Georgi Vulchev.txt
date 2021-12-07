@@ -1,6 +1,6 @@
 name=Георги Вълчев
 age=23
-number= 8
+number=8
 nationality=bulgarian
 position=m
 overall=72

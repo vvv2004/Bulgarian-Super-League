@@ -1,0 +1,5 @@
+name=Христо Илиев
+role=assistant
+age=46
+nationality=bulgarian
+overall= 68

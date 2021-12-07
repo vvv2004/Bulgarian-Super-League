@@ -1,6 +1,6 @@
 name=Мартин Атанасов
 age=26
-number= 13
+number=13
 nationality=bulgarian
 position=f
 overall=79

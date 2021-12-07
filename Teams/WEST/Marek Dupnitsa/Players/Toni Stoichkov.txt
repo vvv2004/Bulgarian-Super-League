@@ -1,6 +1,6 @@
 name=Тони Стоичков
-age= 19
-number= 67
+age=19
+number=67
 nationality=bulgarian
 position=g
 overall=67

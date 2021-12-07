@@ -1,6 +1,6 @@
-name= Станислав Василев
-age= 21
-number= 25 
-nationality= bulgarian 
-position= f
-overall= 73
+name=Станислав Василев
+age=21
+number=25 
+nationality=bulgarian 
+position=f
+overall=73

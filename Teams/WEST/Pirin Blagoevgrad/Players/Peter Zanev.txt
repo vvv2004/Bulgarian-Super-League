@@ -1,6 +1,6 @@
 name=Петър Занев
 age=25
-number= 11
+number=11
 nationality=bulgarian
 position=f
 overall=69

@@ -1,6 +1,6 @@
 name=Ертан Томбак
 age=21
-number= 6
+number=6
 nationality=Afghan
 position=m
 overall=72

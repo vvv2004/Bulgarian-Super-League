@@ -1,6 +1,6 @@
 name=Иван Тасев
 age=21
-number= 1
+number=1
 nationality=bulgarian
 position=g
 overall=72
