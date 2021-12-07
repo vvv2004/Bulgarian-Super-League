@@ -12,7 +12,6 @@ public class Reader {
     public Reader(){}
 
 
-    //Взима цялостната информация за играч
     public String getInfo(String path) throws IOException{
         Scanner scan;
 
@@ -28,7 +27,7 @@ public class Reader {
         return info;
     }
 
-    //Изкарва конкретна информация зза играч
+    //Изкарва конкретна информация
     public String getSpecificInfo(String info, String typeOfInfo) {
         String output = "";
 
