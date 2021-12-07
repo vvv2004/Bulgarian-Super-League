@@ -9,6 +9,8 @@ public class Stadium {
         this.capacity = capacity;
     }
 
+    public Stadium(){}
+
     public String getName() {
         return name;
     }

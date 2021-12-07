@@ -1,6 +1,6 @@
-name=Ботев
+name=Ботевъ
 city=Пловдив
-nickname=
+nickname=Канарчетата
 points=0
 goalsScored=0
 goalsAllowed=0

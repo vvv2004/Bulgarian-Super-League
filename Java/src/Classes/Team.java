@@ -1,5 +1,8 @@
 package Classes;
 import ProjectUtils.*;
+import ReaderWriter.*;
+
+import java.io.IOException;
 
 public class Team {
     private String name;
@@ -123,9 +126,32 @@ public class Team {
     public String teamInfo() {
         return "\n"+
                 "Име: " + name +
+                "\nГрад: " + city +
                 "\nСтадион: " + stadium.getName() +
                 "\nПрозвище: " + nickname +
                 "\nГлавен Треньор: " + coaches[0].getName() +
                 "\nАсистент Треньор: " + coaches[1].getName();
+    }
+
+
+    public static Team loadTeamFromDatabase(String pathToData) throws IOException {
+        Reader reader = new Reader();
+        Team output = new Team();
+        String teamInfo = reader.getTeamInfo(pathToData);
+        Player[] players = reader.loadPlayersFromTeam(pathToData);
+        Coach[] coaches = reader.loadCoachesFromTeam(pathToData);
+        Stadium stadium = new Stadium("Test", 20000);
+
+        output.setName(reader.getSpecificInfo(teamInfo, "name"));
+        output.setCity(reader.getSpecificInfo(teamInfo, "city"));
+        output.setNickname(reader.getSpecificInfo(teamInfo, "nickname"));
+        output.setPlayers(players);
+        output.setCoaches(coaches);
+        output.setAttackOverall(output.calculateAvgOverall(players, Position.FORWARD));
+        output.setMidfieldOverall(output.calculateAvgOverall(players, Position.MIDFIELDER));
+        output.setDefenceOverall(output.calculateAvgOverall(players, Position.DEFENDER));
+        output.setStadium(stadium);
+
+        return output;
     }
 }

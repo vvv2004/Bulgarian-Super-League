@@ -13,16 +13,17 @@ public class TestTeams {
         Reader reader = new Reader();
 
 
-        Team ardaKardzhali = new Team();
-        ardaKardzhali.setPlayers(reader.loadPlayersFromTeam(teamAddresses.get("Arda Kardzhali")));
-        ardaKardzhali.setCoaches(reader.loadCoachesFromTeam(teamAddresses.get("Arda Kardzhali")));
+        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Botev Plovdiv"));
 
-        for (Player player : ardaKardzhali.getPlayers()) {
+
+        for (Player player : dunavRuse.getPlayers()) {
             System.out.println(player.toString());
         }
 
-        for (Coach coach : ardaKardzhali.getCoaches()) {
+        for (Coach coach : dunavRuse.getCoaches()) {
             System.out.println(coach.toString());
         }
+
+        System.out.println(dunavRuse.teamInfo());
     }
 }

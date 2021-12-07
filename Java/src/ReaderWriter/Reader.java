@@ -12,21 +12,20 @@ public class Reader {
     public Reader(){}
 
 
-
     //Взима цялостната информация за играч
     public String getInfo(String path) throws IOException{
         Scanner scan;
 
-        String playerInfo = "";
+        String info = "";
 
         scan = new Scanner(new File(path));
 
         while(scan.hasNextLine()){
-            playerInfo += scan.nextLine();
-            playerInfo += '\n';
+            info += scan.nextLine();
+            info += '\n';
         }
 
-        return playerInfo;
+        return info;
     }
 
     //Изкарва конкретна информация зза играч
@@ -46,7 +45,11 @@ public class Reader {
 
         String[] splitData = output.split("=");
 
-        return splitData[1];
+        if(splitData.length > 1){
+            return splitData[1];
+        }
+
+        return null;
     }
 
 
@@ -136,5 +139,13 @@ public class Reader {
         return output;
     }
 
-    public String
+    public String getTeamInfo(String pathToTeam) throws IOException{
+        String output = "";
+        String pathToInfo = pathToTeam + "/team_info.txt";
+
+        output = getInfo(pathToInfo);
+
+
+        return output;
+    }
 }
