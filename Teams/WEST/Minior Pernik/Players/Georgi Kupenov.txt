@@ -1,6 +1,0 @@
-name=Георги Купенов
-age=22
-number= 10
-nationality=bulgarian
-position=f
-overall=70

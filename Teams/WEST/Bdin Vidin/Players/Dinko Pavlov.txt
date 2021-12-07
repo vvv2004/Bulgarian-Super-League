@@ -1,6 +1,0 @@
-name= Dinko Pavlov
-age=23
-number=3
-nationality= bulgarian
-position=d
-overall= 70

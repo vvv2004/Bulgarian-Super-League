@@ -1,6 +1,0 @@
-name=Методи Костов
-age=21
-number= 27
-nationality=bulgarian
-position=m
-overall=64

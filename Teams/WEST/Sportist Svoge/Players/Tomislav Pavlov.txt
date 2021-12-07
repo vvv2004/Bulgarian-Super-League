@@ -1,6 +1,0 @@
-name= Томислав Павлов
-age= 19
-number=56
-nationality=bulgarian
-position= m
-overall= 72

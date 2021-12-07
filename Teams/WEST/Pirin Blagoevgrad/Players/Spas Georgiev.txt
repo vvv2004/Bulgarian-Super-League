@@ -1,6 +1,0 @@
-name=Спас Георгиев
-age=28
-number= 25
-nationality=bulgarian
-position=d
-overall=71

@@ -1,6 +1,0 @@
-name=Ивайло Раденцов
-age=19
-number= 4
-nationality=bulgarian
-position=d
-overall=66

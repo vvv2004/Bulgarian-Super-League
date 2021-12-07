@@ -1,6 +1,0 @@
-name=Антон Славчев
-age=27
-number= 2
-nationality=bulgarian
-position=d
-overall=66

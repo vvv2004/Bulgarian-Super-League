@@ -1,6 +1,0 @@
-name=Борис Валканов
-age=20
-number= 5
-nationality=bulgarian
-position=m
-overall=69

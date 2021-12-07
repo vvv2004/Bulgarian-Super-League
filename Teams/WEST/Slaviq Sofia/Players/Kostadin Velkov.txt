@@ -1,6 +1,0 @@
-name=Костадин Велков
-age=23
-number= 10
-nationality=bulgarian
-position=f
-overall=69

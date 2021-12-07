@@ -1,6 +1,0 @@
-name= Иван Иванов
-age= 24
-number= 13
-nationality= bulgarian
-position= m
-overall= 73

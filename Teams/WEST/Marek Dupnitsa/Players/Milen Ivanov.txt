@@ -1,6 +1,0 @@
-name=Милен Иванов
-age= 24
-number= 9
-nationality= bulgarian
-position= m
-overall= 71

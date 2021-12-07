@@ -1,6 +1,0 @@
-name= Даниел Васев
-age=18
-number=1
-nationality= bulgarian
-position= g
-overall= 69

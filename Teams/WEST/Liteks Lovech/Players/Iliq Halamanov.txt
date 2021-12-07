@@ -1,6 +1,0 @@
-name= Илия Хамаланов
-age= 20
-number= 4
-nationality= bulgarian
-position= d
-overall=73

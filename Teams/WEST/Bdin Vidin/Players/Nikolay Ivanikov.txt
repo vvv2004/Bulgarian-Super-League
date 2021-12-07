@@ -1,6 +1,0 @@
-name= Николай Иваников
-age= 20
-number= 18
-nationality= bulgarian
-position= f
-overall=68

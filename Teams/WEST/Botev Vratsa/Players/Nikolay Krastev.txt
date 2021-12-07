@@ -1,6 +1,0 @@
-name= Николай Кръстев
-age= 18
-number= 11
-nationality= bulgarian
-position= f
-overall= 72

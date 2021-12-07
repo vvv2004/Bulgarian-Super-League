@@ -1,6 +1,0 @@
-name=Радослав Кирилов
-age=27
-number= 22
-nationality=bulgarian
-position=d
-overall=68

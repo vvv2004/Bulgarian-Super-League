@@ -1,6 +1,0 @@
-name=Стефан Гаврилов
-age= 25
-number= 71
-nationality= bulgarian
-position= d
-overall= 71

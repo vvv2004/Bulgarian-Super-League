@@ -1,6 +1,0 @@
-name= Васил Павлов
-age=19
-number= 36
-nationality= bulgarian
-position= d
-overall= 71

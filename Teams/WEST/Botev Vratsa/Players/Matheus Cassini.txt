@@ -1,6 +1,0 @@
-name=Матеус Касини
-age=21
-number=20
-nationality=italian
-position=m
-overall=70

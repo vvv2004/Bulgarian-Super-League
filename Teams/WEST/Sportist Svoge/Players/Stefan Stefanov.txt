@@ -1,6 +1,0 @@
-name= Стефан Стефанов
-age= 27
-number=21
-nationality=bulgarian
-position= f
-overall= 71

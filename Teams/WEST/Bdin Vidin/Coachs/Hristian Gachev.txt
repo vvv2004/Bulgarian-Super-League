@@ -1,5 +1,0 @@
-name=
-age=
-natonialty=
-overall =
-role=

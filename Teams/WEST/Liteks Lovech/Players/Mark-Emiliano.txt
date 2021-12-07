@@ -1,6 +1,0 @@
-name= Марк Емилиано
-age= 20
-number= 8
-nationality= bulgarian 
-position= m
-overall= 72

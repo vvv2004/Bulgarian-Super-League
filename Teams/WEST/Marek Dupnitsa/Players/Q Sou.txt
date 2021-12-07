@@ -1,6 +1,0 @@
-name=Я Соу
-age= 31
-number= 90
-nationality= cameroonian
-position= f
-overall= 73

@@ -1,6 +1,0 @@
-name=Станислав Манолев
-age=31
-number= 29
-nationality=bulgarian
-position=g
-overall=71

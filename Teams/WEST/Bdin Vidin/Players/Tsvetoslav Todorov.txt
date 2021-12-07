@@ -1,6 +1,0 @@
-name=Светослав Тодоров
-age=20
-number= 27
-nationality= bulgarian 
-position= g
-overall=72

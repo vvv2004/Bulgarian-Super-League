@@ -1,6 +1,0 @@
-name= Стефан Гаврилов
-age= 18
-number= 35
-nationality= bulgarian
-position=d
-overall=68

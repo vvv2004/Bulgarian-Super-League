@@ -1,6 +1,0 @@
-name=Светльо Георгиев 
-age=28
-number= 11
-nationality=bulgarian
-position=f
-overall=76

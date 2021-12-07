@@ -1,6 +1,0 @@
-name=Преслав Йорданов
-age=21
-number= 12
-nationality=bulgarian
-position=f
-overall=67

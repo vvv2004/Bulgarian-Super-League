@@ -1,6 +1,0 @@
-name=Ивайло Тодоров
-age=20
-number= 2
-nationality=bulgarian
-position=d
-overall=67

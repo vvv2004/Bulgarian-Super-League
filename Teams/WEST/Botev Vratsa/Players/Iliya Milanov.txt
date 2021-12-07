@@ -1,6 +1,0 @@
-name= Илия Миланов
-age= 27
-number= 22
-nationality= bulgarian
-position= d
-overall= 71

@@ -1,6 +1,0 @@
-name= Михаил Рашков
-age= 21
-number= 7
-nationality= bulgarian
-position= m
-overall= 69

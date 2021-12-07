@@ -1,6 +1,0 @@
-name= Валентин Николов
-age= 28
-number=26
-nationality=bulgarian
-position= m
-overall= 69

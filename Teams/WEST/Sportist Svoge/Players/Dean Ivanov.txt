@@ -1,6 +1,0 @@
-name= Деан Иванов
-age= 21
-number=3
-nationality=bulgarian
-position= d
-overall= 77

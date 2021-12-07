@@ -1,6 +1,0 @@
-name=Пламен Младенов
-age= 18
-number= 28
-nationality= bulgarian
-position= m
-overall= 67

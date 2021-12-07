@@ -1,6 +1,0 @@
-name= Пламен Спасов
-age= 19
-number= 25
-nationality= bulgarian
-position= g
-overall= 67

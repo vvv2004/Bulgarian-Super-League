@@ -1,6 +1,0 @@
-name=Дарко Тасевски
-age=32
-number= 2
-nationality=bulgarian
-position=d
-overall=67

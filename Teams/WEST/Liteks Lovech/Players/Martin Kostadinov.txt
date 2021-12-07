@@ -1,6 +1,0 @@
-name= Мартин Костадинов
-age= 23
-number= 9
-nationality= bulgarian
-position= m
-overall= 70

@@ -1,6 +1,0 @@
-name= Валентин Кутцов
-age= 29
-number= 72
-nationality= bulgarian
-position= f
-overall= 71

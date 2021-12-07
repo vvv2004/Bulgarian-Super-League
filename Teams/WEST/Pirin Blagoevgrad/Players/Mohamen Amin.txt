@@ -1,6 +1,0 @@
-name=Мохамед Амин
-age=20
-number=5
-nationality=Algerian
-position=d
-overall=69

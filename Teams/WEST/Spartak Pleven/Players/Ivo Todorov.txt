@@ -1,6 +1,0 @@
-name=Иво Тодоров
-age=21
-number= 5
-nationality=bulgarian
-position=d
-overall=71

@@ -1,6 +1,0 @@
-name= Цветан Зарев
-age= 21
-number=90
-nationality= bulgarian
-position= f
-overall= 70

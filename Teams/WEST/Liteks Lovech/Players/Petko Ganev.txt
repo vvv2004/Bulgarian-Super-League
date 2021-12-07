@@ -1,6 +1,0 @@
-name= Petko Ganev
-age= 25
-number= 18
-nationality= bulgarian
-position= f
-overall= 71

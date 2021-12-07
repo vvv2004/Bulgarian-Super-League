@@ -1,6 +1,0 @@
-name= Красимир Панчев
-age=18
-number=29
-nationality=bulgarian
-position= f
-overall= 67

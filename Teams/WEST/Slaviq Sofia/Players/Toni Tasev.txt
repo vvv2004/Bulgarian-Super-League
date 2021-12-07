@@ -1,6 +1,0 @@
-name=Тони Тасев
-age=21
-number= 32
-nationality=bulgarian
-position=d
-overall=66

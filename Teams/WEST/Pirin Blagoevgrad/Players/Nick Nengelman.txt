@@ -1,6 +1,0 @@
-name=Ник Ненгелман
-age=24
-number= 6
-nationality=Frenchman 
-position=m
-overall=76

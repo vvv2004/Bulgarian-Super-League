@@ -1,6 +1,0 @@
-name= Тодор Кючуков
-age= 18
-number= 20
-nationality= bulgarian
-position= f
-overall=71

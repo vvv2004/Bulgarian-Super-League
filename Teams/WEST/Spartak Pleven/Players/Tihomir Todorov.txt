@@ -1,6 +1,0 @@
-name=Тихомир Тодоров
-age=20
-number= 12
-nationality=bulgarian
-position=g
-overall=66

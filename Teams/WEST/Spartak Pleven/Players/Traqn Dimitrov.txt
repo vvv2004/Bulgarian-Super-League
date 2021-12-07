@@ -1,6 +1,0 @@
-name=Траян Димитров
-age=21
-number=13
-nationality=bulgarian
-position=f
-overall=72

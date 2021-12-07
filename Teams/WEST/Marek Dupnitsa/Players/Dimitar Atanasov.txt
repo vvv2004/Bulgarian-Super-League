@@ -1,6 +1,0 @@
-name= Димитър Атанасов
-age= 19
-number= 2
-nationality= bulgarian
-position= d
-overall= 70

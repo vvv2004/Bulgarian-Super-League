@@ -1,6 +1,0 @@
-name= Антонио Георгиев
-age=21
-number=1
-nationality= bulgarian
-position=g
-overall=69

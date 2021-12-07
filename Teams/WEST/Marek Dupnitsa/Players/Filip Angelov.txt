@@ -1,6 +1,0 @@
-name= Филип Ангелов
-age= 24
-number= 18
-nationality= bulgarian 
-position= d
-overall= 67

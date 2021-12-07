@@ -1,6 +1,0 @@
-name=Персиян Петров
-age=19
-number= 6
-nationality=bulgarian
-position=m
-overall=66

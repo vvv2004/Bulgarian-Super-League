@@ -1,6 +1,0 @@
-name=Ерол Дост
-age=22
-number= 5
-nationality=bulgarian
-position=d
-overall=68

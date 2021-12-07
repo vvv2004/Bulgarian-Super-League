@@ -1,6 +1,0 @@
-name= Стефан Неделчев
-age= 18
-number=  28
-nationality= bulgarian
-position= f
-overall= 67

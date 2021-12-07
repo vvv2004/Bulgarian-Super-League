@@ -1,6 +1,0 @@
-name= Теодор Тодоров
-age= 21
-number=12
-nationality=bulgarian
-position= g
-overall= 68

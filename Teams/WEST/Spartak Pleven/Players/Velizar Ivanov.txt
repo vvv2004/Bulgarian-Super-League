@@ -1,6 +1,0 @@
-name=Велизар Иванов
-age=25
-number= 24
-nationality=bulgarian
-position=m
-overall=71

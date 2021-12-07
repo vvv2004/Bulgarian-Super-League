@@ -1,6 +1,0 @@
-name=Емил Виячки
-age=25
-number=4
-nationality=bulgarian
-position=d
-overall=78

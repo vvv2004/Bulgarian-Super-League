@@ -1,6 +1,0 @@
-name=Кристиан Добрев
-age=18
-number= 12
-nationality=bulgarian
-position=f
-overall=72
