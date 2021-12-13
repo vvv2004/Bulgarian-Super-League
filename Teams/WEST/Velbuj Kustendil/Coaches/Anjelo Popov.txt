@@ -1,5 +1,5 @@
-name= Анжело Попов
-role= conditional
-age= 51
-nationality= bulgarian
-overall= 70
+name=Анжело Попов
+role=conditional
+age=51
+nationality=bulgarian
+overall=70

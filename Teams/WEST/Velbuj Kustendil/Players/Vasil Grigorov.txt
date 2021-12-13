@@ -1,6 +1,6 @@
-name= Васил Григоров
-age= 21
+name=Васил Григоров
+age=21
 number=50
 nationality=bulgarian
-position= f
-overall= 70
+position=f
+overall=70

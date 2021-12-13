@@ -1,6 +1,6 @@
-name= Даниел Христов
-age= 22
+name=Даниел Христов
+age=22
 number=1
 nationality=bulgarian
-position= g
-overall= 67
+position=g
+overall=67

@@ -1,6 +1,6 @@
-name= Йордан Павлов
+name=Йордан Павлов
 age=31
 number=17
 nationality=bulgarian
-position= m
-overall= 71
+position=m
+overall=71

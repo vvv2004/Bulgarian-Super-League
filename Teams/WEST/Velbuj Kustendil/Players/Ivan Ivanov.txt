@@ -1,6 +1,6 @@
 name=Иван Иванов
-age= 23
+age=23
 number=4
 nationality=bulgarian
-position= d
-overall= 69
+position=d
+overall=69

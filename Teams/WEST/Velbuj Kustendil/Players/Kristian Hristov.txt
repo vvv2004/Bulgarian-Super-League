@@ -1,6 +1,6 @@
-name= Кристиан Христов
-age= 23
+name=Кристиан Христов
+age=23
 number=6
 nationality=bulgarian
-position= m
-overall= 71
+position=m
+overall=71

@@ -1,6 +1,6 @@
-name= Емил Трингов
-age= 21
+name=Емил Трингов
+age=21
 number=3
 nationality=bulgarian
-position= d
-overall= 67
+position=d
+overall=67

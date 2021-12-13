@@ -1,5 +1,5 @@
-name= Георги Дерменджиев
-role= general
-age= 61
-nationality= bulgarian
-overall= 80
+name=Георги Дерменджиев
+role=general
+age=61
+nationality=bulgarian
+overall=80

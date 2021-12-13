@@ -1,6 +1,6 @@
-name= Иван Попов
-age= 19
+name=Иван Попов
+age=19
 number=5
 nationality=bulgarian
-position= m
-overall= 70
+position=m
+overall=70
