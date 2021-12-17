@@ -28,7 +28,9 @@ public class TestTeams {
         System.out.println(dunavRuse.teamInfo());
 
         dunavRuse.setName("Слабаците");
+        dunavRuse.getPlayers()[2].setNationality("bulgarian");
         write.writeTeamInfo(dunavRuse);
+        write.writePlayersData(dunavRuse);
         System.out.println("\n\n");
 
         for (Player player : dunavRuse.getPlayers()) {
