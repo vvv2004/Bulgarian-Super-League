@@ -11,6 +11,7 @@ public class TestTeams {
     public static void main(String[] args) throws IOException {
         HashMap<String, String> teamAddresses = TeamAddresses.loadTeamAddresses();
         Reader reader = new Reader();
+        Writer write = new Writer();
 
 
         Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Yantra Gabrovo"));
@@ -23,7 +24,7 @@ public class TestTeams {
         for (Coach coach : dunavRuse.getCoaches()) {
             System.out.println(coach.toString());
         }
-
+        
         System.out.println(dunavRuse.teamInfo());
     }
 }

@@ -45,10 +45,10 @@ public class Player extends Person{
     @Override
     public String toString() {
         return "name=" + getName() +
-                "age=" + getAge() +
-                "number=" + number +
-                "nationality=" + getNationality() +
-                "position=" + position.toString().toLowerCase().charAt(0) +
-                "overall=" + overall;
+                "\nage=" + getAge() +
+                "\nnumber=" + number +
+                "\nnationality=" + getNationality() +
+                "\nposition=" + position.toString().toLowerCase().charAt(0) +
+                "\noverall=" + overall;
     }
 }

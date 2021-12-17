@@ -16,6 +16,8 @@ public class Writer {
     public void writeTeamInfo(Team team) throws IOException{
         File file = new File(team.getPathToTeamData() + "/team_info.txt");
         FileWriter fw = new FileWriter(file);
-        String writeTeamInfo = team.teamInfo();
+        String writeTeamInfo = team.toString();
+        fw.write(writeTeamInfo);
+        fw.close();
     }
 }

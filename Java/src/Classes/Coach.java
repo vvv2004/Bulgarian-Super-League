@@ -33,9 +33,9 @@ public class Coach extends Person{
 
     public String toString(){
         return "name=" + getName() +
-                "role=" + role.toString().toLowerCase() +
-                "age=" + getAge() +
-                "nationality=" + getNationality() +
-                "overall=" + getOverall();
+                "\nrole=" + role.toString().toLowerCase() +
+                "\nage=" + getAge() +
+                "\nnationality=" + getNationality() +
+                "\noverall=" + getOverall();
     }
 }
