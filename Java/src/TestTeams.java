@@ -6,41 +6,41 @@ import Addresses.*;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 public class TestTeams {
     public static void main(String[] args) throws IOException {
         HashMap<String, String> teamAddresses = TeamAddresses.loadTeamAddresses();
-        Reader reader = new Reader();
+        Reader read = new Reader();
         Writer write = new Writer();
 
+        Team[] teams = loadAllTeamFromData();
+        teams[14].setNickname("Silnite");
+        teams[14].setCity("QKiq grad");
 
-        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Dunav Ruse"));
-        dunavRuse.setPathToTeamData(teamAddresses.get("Dunav Ruse"));
+        saveAllTeamData(teams);
+        //System.out.println(read.getTeamInfo(teams[14].getPathToTeamData()));
+    }
 
-        for (Player player : dunavRuse.getPlayers()) {
-            System.out.println(player.toString());
+    public static void saveAllTeamData(Team[] teams) throws IOException{
+        Writer write = new Writer();
+
+        for (Team team : teams) {
+            write.writeAllTeamData(team);
+        }
+    }
+
+    public static Team[] loadAllTeamFromData() throws IOException {
+        Reader read = new Reader();
+        Team[] output = new Team[20];
+
+        for (Map.Entry<String, String> items: TeamAddresses.loadTeamAddresses().entrySet()){
+            for (int i = 0; i < output.length; i++) {
+                output[i] = Team.loadTeamFromDatabase(items.getValue());
+            }
         }
 
-        for (Coach coach : dunavRuse.getCoaches()) {
-            System.out.println(coach.toString());
-        }
 
-        System.out.println(dunavRuse.teamInfo());
-
-        dunavRuse.setName("Слабаците");
-        dunavRuse.getPlayers()[2].setNationality("bulgarian");
-        write.writeTeamInfo(dunavRuse);
-        write.writePlayersData(dunavRuse);
-        System.out.println("\n\n");
-
-        for (Player player : dunavRuse.getPlayers()) {
-            System.out.println(player.toString());
-        }
-
-        for (Coach coach : dunavRuse.getCoaches()) {
-            System.out.println(coach.toString());
-        }
-
-        System.out.println(dunavRuse.teamInfo());
+        return output;
     }
 }

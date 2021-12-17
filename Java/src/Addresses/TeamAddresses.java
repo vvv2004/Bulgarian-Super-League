@@ -20,6 +20,15 @@ public class TeamAddresses {
         hashMap.put("Ludogorets Razgrad", "../Teams/EAST/Ludogorets Razgrad");
         hashMap.put("Yantra Gabrovo", "../Teams/EAST/Yantra Gabrovo");
         hashMap.put("Bdin Vidin", "../Teams/WEST/Bdin Vidin");
+        hashMap.put("Botev Vratsa", "../Teams/WEST/Botev Vratsa");
+        hashMap.put("Liteks Lovech", "../Teams/WEST/Liteks Lovech");
+        hashMap.put("Marek Dupnitsa", "../Teams/WEST/Marek Dupnitsa");
+        hashMap.put("Minior Pernik", "../Teams/WEST/Minior Pernik");
+        hashMap.put("Pirin Blagoevgrad", "../Teams/WEST/Pirin Blagoevgrad");
+        hashMap.put("Slaviq Sofia", "../Teams/WEST/Slaviq Sofia");
+        hashMap.put("Spartak Pleven", "../Teams/WEST/Spartak Pleven");
+        hashMap.put("Sportist Svoge", "../Teams/WEST/Sportist Svoge");
+        hashMap.put("Velbujd Kustendil", "../Teams/WEST/Velbujd Kustendil");
 
 
 

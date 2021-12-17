@@ -30,6 +30,10 @@ public class Team {
         defenceOverall = calculateAvgOverall(players, Position.DEFENDER);
     }
 
+    public Team(String pathToTeamData){
+        this.pathToTeamData = pathToTeamData;
+    }
+
     public Team(){
         name = null;
         nickname = null;
@@ -170,6 +174,7 @@ public class Team {
         output.setMidfieldOverall(output.calculateAvgOverall(players, Position.MIDFIELDER));
         output.setDefenceOverall(output.calculateAvgOverall(players, Position.DEFENDER));
         output.setStadium(stadium);
+        output.setPathToTeamData(pathToData);
 
         return output;
     }

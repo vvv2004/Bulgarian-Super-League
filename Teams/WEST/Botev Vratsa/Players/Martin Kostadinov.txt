@@ -1,5 +1,5 @@
 name=Мартин Костадинов
-age= 18
+age=18
 number=8
 nationality=bulgarian
 position=m
