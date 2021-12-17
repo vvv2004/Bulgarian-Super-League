@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .header{
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     padding: 0 8%;
     background-repeat: no-repeat;
@@ -50,13 +50,31 @@ nav{
 .nav-links li a:hover::after{
     width: 100%;
 }
-table th, td{
-    color:rgb(233, 150, 41);
-    border:2px solid black;
-    background-color: rgba(78, 159, 161, 0.788);
-outline-color: chartreuse;
+
+h2{
+    color: rgba(226, 230, 36, 0.836);
 }
 
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(60, 214, 137, 0.726);
+  color: white;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: antiquewhite;
+    background-color:rgba(51, 139, 51, 0.726);
+  }
+  
+ table td,  th  {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
 
 @media(min-aspect-ratio: 16/9){
     .back-video{
