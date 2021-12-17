@@ -11,6 +11,7 @@ public class Team {
     private Player[] players = new Player[16];
     private Coach[] coaches;
     private Stadium stadium;
+    private String pathToTeamData;
 
     private int attackOverall;
     private int midfieldOverall;
@@ -35,6 +36,14 @@ public class Team {
         players = null;
         coaches = null;
         stadium = null;
+    }
+
+    public String getPathToTeamData() {
+        return pathToTeamData;
+    }
+
+    public void setPathToTeamData(String pathToTeamData) {
+        this.pathToTeamData = pathToTeamData;
     }
 
     public String getCity() {
@@ -133,6 +142,16 @@ public class Team {
                 "\nАсистент Треньор: " + coaches[1].getName();
     }
 
+
+    public String toString(){
+        return "name=" + name +
+                "\ncity=" + city +
+                "\nnickname=" + nickname +
+                "\npoints=0" +
+                "\ngoalsScored=0" +
+                "\ngoalDifference=0";
+
+    }
 
     public static Team loadTeamFromDatabase(String pathToData) throws IOException {
         Reader reader = new Reader();

@@ -8,17 +8,14 @@ import java.io.IOException;
 
 
 public class Writer {
-    private String path;
+    public void writeAllTeamData(){}
 
-    public Writer(){
-        path = "../Teams";
-    }
+    public void writePlayerData(){}
+    public void writeCoachesData(){}
 
-    public void setFullTeamInfo(Team teamObject, String conference, String team) throws IOException {
-        String path = this.path + '/' + conference + '/' + team + "/team_info.txt";
-        File file = new File(path);
-        FileWriter fileWriter = new FileWriter(file);
-        fileWriter.write(teamObject.toString());
-        fileWriter.close();
+    public void writeTeamInfo(Team team) throws IOException{
+        File file = new File(team.getPathToTeamData() + "/team_info.txt");
+        FileWriter fw = new FileWriter(file);
+        String writeTeamInfo = team.teamInfo();
     }
 }

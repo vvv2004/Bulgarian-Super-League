@@ -30,4 +30,12 @@ public class Coach extends Person{
     public void setRole(CoachRoles role) {
         this.role = role;
     }
+
+    public String toString(){
+        return "name=" + getName() +
+                "role=" + role.toString().toLowerCase() +
+                "age=" + getAge() +
+                "nationality=" + getNationality() +
+                "overall=" + getOverall();
+    }
 }
