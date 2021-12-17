@@ -14,8 +14,8 @@ public class TestTeams {
         Writer write = new Writer();
 
 
-        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Yantra Gabrovo"));
-
+        Team dunavRuse = Team.loadTeamFromDatabase(teamAddresses.get("Dunav Ruse"));
+        dunavRuse.setPathToTeamData(teamAddresses.get("Dunav Ruse"));
 
         for (Player player : dunavRuse.getPlayers()) {
             System.out.println(player.toString());
@@ -24,7 +24,21 @@ public class TestTeams {
         for (Coach coach : dunavRuse.getCoaches()) {
             System.out.println(coach.toString());
         }
-        
+
+        System.out.println(dunavRuse.teamInfo());
+
+        dunavRuse.setName("Слабаците");
+        write.writeTeamInfo(dunavRuse);
+        System.out.println("\n\n");
+
+        for (Player player : dunavRuse.getPlayers()) {
+            System.out.println(player.toString());
+        }
+
+        for (Coach coach : dunavRuse.getCoaches()) {
+            System.out.println(coach.toString());
+        }
+
         System.out.println(dunavRuse.teamInfo());
     }
 }
