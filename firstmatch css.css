@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100%;
+    width: 100%;
+    padding: 0 8%;
+    background-repeat: no-repeat;
+    background-image: url(media/alo.jpeg);
+
+
+}
+.previous {
+    background-color: #9fdaf1;
+    color: black;
+    position: absolute;
+left: 25%;
+top: 3%;    
+
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 250px;
+}
+
+.Minior{
+   position: absolute;
+   left: 75%;
+   top: 10%;
+}
+h2{
+    text-align: center;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(60, 214, 137, 0.726);
+    color: white;
+  }
+  
+  table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      color: antiquewhite;
+      background-color:rgba(51, 139, 51, 0.726);
+    }
+    
+   table td,  th  {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
