@@ -5,14 +5,15 @@
     box-sizing: border-box;
 }
 .header{
-    height: 150vh;
-    width: 100%;
-    padding: 0 8%;
-    background-repeat: no-repeat;
-    background-image: url(media/background.jpg);
-
+    height:auto;
+    padding:0 7%;
+    background: url("media/background.jpg") no-repeat center center ; 
+    background-size: cover;
+    
 
 }
+
+
 
 nav{
     display: flex;
