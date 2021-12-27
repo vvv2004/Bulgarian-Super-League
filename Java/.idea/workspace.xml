@@ -2,77 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classes/Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TestTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TestTeams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderWriter/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Arda Kardzhali/Coaches/Bozhidar Dzhurkovich.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Arda Kardzhali/Coaches/Bozhidar Dzhurkovich.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Emanuel Lukanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Emanuel Lukanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Petar Kolev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Petar Kolev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Plamen Lipenski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Coaches/Plamen Lipenski.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Aleksandar Cvetkov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Aleksandar Cvetkov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Aliun Fal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Aliun Fal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Daniel Genov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Daniel Genov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Dzhuneit Ali.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Dzhuneit Ali.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Hristo Mitev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Hristo Mitev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Iliyan Stefanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Iliyan Stefanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Ivan Goshev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Ivan Goshev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Kilan Lebon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Kilan Lebon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Kukula.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Kukula.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Martin Kamburov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Martin Kamburov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Miroslav Enchev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Miroslav Enchev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Nikolai Marinov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Nikolai Marinov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Nordin Baker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Nordin Baker.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Omar Sako.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Omar Sako.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Reyan Daskalov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Reyan Daskalov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Stiv Furtаdo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/Players/Stiv Furtаdo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/team_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/EAST/Beroe Stara Zagora/team_info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Hristo Iliev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Hristo Iliev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Ivaylo Dimitrov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Ivaylo Dimitrov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Todor Garev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Botev Vratsa/Coaches/Todor Garev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Liteks Lovech/Players/Iliqn Kapitanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Liteks Lovech/Players/Iliqn Kapitanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Slaviq Sofia/Players/Ventslav Kerchev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Coaches/Ivaylo Vasilev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Coaches/Ivaylo Vasilev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Coaches/Musa Yordanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Coaches/Musa Yordanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Bogomil Bogomilov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Bogomil Bogomilov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Borislav Stoichev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Borislav Stoichev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Dean Ivanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Dean Ivanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Deqn Hristov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Deqn Hristov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Dimitar Aleksiev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Dimitar Aleksiev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Galin Tahev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Galin Tahev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Ivailo Mihaylov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Ivailo Mihaylov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Kiril Qnakiev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Kiril Qnakiev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Krasimir Panchev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Krasimir Panchev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Martin Sandov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Martin Sandov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Radoslav Vasilev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Radoslav Vasilev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Rangel Ignatov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Rangel Ignatov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Stefan Stefanov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Stefan Stefanov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Stefano Kunchev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Stefano Kunchev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Tomislav Pavlov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Tomislav Pavlov.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Valentin Minchev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Teams/WEST/Sportist Svoge/Players/Valentin Minchev.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Coaches/Anjelo Popov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Coaches/Georgi Dermendjiev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Coaches/Plamen Kostov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Daniel Hristov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Dimitar Petkov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Emil Tringov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Hristo Smirnenski.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Ivan Ivanov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Ivan Popov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Kristian Hristov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Martin Todorov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Momchil Petkov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Petur Yordanov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Radoslav Yordanov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Simeon Dimitrov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Teodor Todorov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Valenntin Nikolov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Vasil Grigorov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/Players/Yordan Pavlov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teams/WEST/Velbuj Kustendil/team_info.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

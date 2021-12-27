@@ -7,18 +7,27 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class TestTeams {
     public static void main(String[] args) throws IOException {
+        Scanner scan = new Scanner(System.in);
         HashMap<String, String> teamAddresses = TeamAddresses.loadTeamAddresses();
         Reader read = new Reader();
         Writer write = new Writer();
 
+        System.out.println("Loading teams...");
         Team[] teams = loadAllTeamFromData();
+        System.out.println("Done loading!");
+
         teams[14].setNickname("Silnite");
         teams[14].setCity("QKiq grad");
 
+        int exit = scan.nextInt();
+
+        System.out.println("Saving teams data...");
         saveAllTeamData(teams);
+        System.out.println("Done saving!");
         System.out.println(read.getTeamInfo(teams[14].getPathToTeamData()));
     }
 

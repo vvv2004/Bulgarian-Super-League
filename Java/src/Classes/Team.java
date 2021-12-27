@@ -16,6 +16,7 @@ public class Team {
     private int attackOverall;
     private int midfieldOverall;
     private int defenceOverall;
+    private int coachesOverall;
 
     public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium, String city) {
         this.name = name;
@@ -28,6 +29,7 @@ public class Team {
         attackOverall = calculateAvgOverall(players, Position.FORWARD);
         midfieldOverall = calculateAvgOverall(players, Position.MIDFIELDER);
         defenceOverall = calculateAvgOverall(players, Position.DEFENDER);
+        coachesOverall = calculateCoachesAvgOverall();
     }
 
     public Team(String pathToTeamData){
@@ -134,6 +136,58 @@ public class Team {
         }
 
         return avg / counter;
+    }
+
+    public int calculateCoachesAvgOverall(){
+        int output = 0;
+
+        for(Coach coach : coaches) {
+            if(coach.getRole().toString().equals("GENERAL") || coach.getRole().toString().equals("ASSISTANT")){
+                output += coach.getOverall();
+            }
+        }
+
+        return output / 2;
+    }
+
+    public double calculateAttackingPotential(){
+        double attackingPlayersContribute = attackOverall * 0.6;
+        double midfieldPlayersContribute = midfieldOverall * 0.3;
+        double defensivePlayersContribute = defenceOverall * 0.1;
+        double coachesContribute = 0;
+
+        if(coachesOverall >= 80){
+            coachesContribute = 0.3;
+        }else if(coachesOverall >= 70 && coachesOverall < 80){
+            coachesContribute = 0.15;
+        }else if(coachesOverall >= 50 && coachesOverall < 60){
+            coachesContribute = -0.15;
+        }else if(coachesOverall < 50){
+            coachesContribute = -0.3;
+        }
+
+        return (attackingPlayersContribute + midfieldPlayersContribute
+                + defensivePlayersContribute + coachesContribute) / 3;
+    }
+
+    public double calculateDefensivePotential(){
+        double defensivePlayersContribute = defenceOverall * 0.6;
+        double midfieldPlayersContribute = midfieldOverall * 0.3;
+        double attackingPlayersContribute = attackOverall * 0.1;
+        double coachesContribute = 0;
+
+        if(coachesOverall >= 80){
+            coachesContribute = 0.3;
+        }else if(coachesOverall >= 70 && coachesOverall < 80){
+            coachesContribute = 0.15;
+        }else if(coachesOverall >= 50 && coachesOverall < 60){
+            coachesContribute = -0.15;
+        }else if(coachesOverall < 50){
+            coachesContribute = -0.3;
+        }
+
+        return (attackingPlayersContribute + midfieldPlayersContribute
+                + defensivePlayersContribute + coachesContribute) / 3;
     }
 
     public String teamInfo() {
