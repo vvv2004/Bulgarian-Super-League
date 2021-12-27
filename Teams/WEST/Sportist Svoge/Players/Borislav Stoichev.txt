@@ -1,6 +1,6 @@
-name= Борислав Стоичев
-age= 21
+name=Борислав Стоичев
+age=21
 number=2
 nationality=bulgarian
-position= d
+position=d
 overall=68

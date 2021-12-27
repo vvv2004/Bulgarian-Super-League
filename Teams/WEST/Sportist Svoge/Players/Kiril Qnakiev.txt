@@ -1,6 +1,6 @@
-name= Кирил Янакиев
+name=Кирил Янакиев
 age=19
 number=9
 nationality=bulgarian
-position= m
-overall= 70
+position=m
+overall=70

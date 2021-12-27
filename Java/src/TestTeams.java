@@ -19,7 +19,7 @@ public class TestTeams {
         teams[14].setCity("QKiq grad");
 
         saveAllTeamData(teams);
-        //System.out.println(read.getTeamInfo(teams[14].getPathToTeamData()));
+        System.out.println(read.getTeamInfo(teams[14].getPathToTeamData()));
     }
 
     public static void saveAllTeamData(Team[] teams) throws IOException{
@@ -33,6 +33,7 @@ public class TestTeams {
     public static Team[] loadAllTeamFromData() throws IOException {
         Reader read = new Reader();
         Team[] output = new Team[20];
+
 
         for (Map.Entry<String, String> items: TeamAddresses.loadTeamAddresses().entrySet()){
             for (int i = 0; i < output.length; i++) {

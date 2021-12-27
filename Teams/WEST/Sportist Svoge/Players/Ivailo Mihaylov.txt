@@ -1,6 +1,6 @@
-name= Ивайло Михайлов
-age= 21
-number= 8
+name=Ивайло Михайлов
+age=21
+number=8
 nationality=bulgarian
-position= m
-overall= 69
+position=m
+overall=69

@@ -1,6 +1,6 @@
-name= Деян Христов
-age= 25
+name=Деян Христов
+age=25
 number=4
 nationality=bulgarian
-position= d
-overall= 71
+position=d
+overall=71

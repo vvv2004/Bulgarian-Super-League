@@ -1,6 +1,6 @@
-name= Мартин Сандов
-age= 22
+name=Мартин Сандов
+age=22
 number=11
 nationality=bulgarian
-position= f
-overall= 70
+position=f
+overall=70

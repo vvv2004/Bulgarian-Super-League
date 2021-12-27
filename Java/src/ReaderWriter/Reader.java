@@ -5,6 +5,7 @@ import ProjectUtils.Position;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.spec.ECField;
 import java.util.Scanner;
 
 public class Reader {
@@ -70,6 +71,7 @@ public class Reader {
             players[i].setOverall(Integer.parseInt(getSpecificInfo(currentPlayerInfo, "overall")));
             //Sets the age of the player
             players[i].setAge(Integer.parseInt(getSpecificInfo(currentPlayerInfo, "age")));
+
             //Sets the position of the player
             String position = getSpecificInfo(currentPlayerInfo, "position");
             switch (position){
@@ -114,9 +116,10 @@ public class Reader {
             output[i] = new Coach();
 
             output[i].setName(getSpecificInfo(currentCoachInfo, "name"));
-            output[i].setAge(Integer.parseInt(getSpecificInfo(currentCoachInfo, "age")));
             output[i].setNationality(getSpecificInfo(currentCoachInfo, "nationality"));
             output[i].setOverall(Integer.parseInt(getSpecificInfo(currentCoachInfo, "overall")));
+            output[i].setAge(Integer.parseInt(getSpecificInfo(currentCoachInfo, "age")));
+
             switch (getSpecificInfo(currentCoachInfo, "role")){
                 case "general":
                     output[i].setRole(CoachRoles.GENERAL);
@@ -129,6 +132,7 @@ public class Reader {
                     break;
                 default:
                     System.out.println("Something went wrong!");
+                    System.out.println(coachAsFile.getName() + pathToCoaches);
                     break;
             }
 

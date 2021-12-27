@@ -1,6 +1,6 @@
-name= Рангел Игнатов
-age= 25
+name=Рангел Игнатов
+age=25
 number=70
 nationality=bulgarian
-position= d
-overall= 70
+position=d
+overall=70

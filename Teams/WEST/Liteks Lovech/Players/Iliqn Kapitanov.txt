@@ -1,5 +1,5 @@
 name=Илиян Капитанов
-age=22 
+age=22
 number=12
 nationality=bulgarian
 position=d

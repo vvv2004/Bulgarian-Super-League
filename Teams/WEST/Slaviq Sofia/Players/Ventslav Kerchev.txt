@@ -1,6 +1,0 @@
-name=Венцислав Керчев
-age=24
-number=68
-nationality=bulgarian
-position=m
-overall=71

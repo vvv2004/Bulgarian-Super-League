@@ -1,5 +1,5 @@
 name=Божидар Джуркович
-role=assistant 
+role=assistant
 age=49
 nationality=Serbian
 overall=73

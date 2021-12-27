@@ -2,4 +2,4 @@ name=Ивайло Димитров
 role=general
 age=23
 nationality=bulgarian
-overall= 64
+overall=64

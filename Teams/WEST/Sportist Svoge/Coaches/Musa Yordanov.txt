@@ -1,5 +1,5 @@
-name= Муса Йорданов
-role= conditional
-age= 30
-nationality= bulgarian
-overall= 70
+name=Муса Йорданов
+role=conditional
+age=30
+nationality=bulgarian
+overall=70

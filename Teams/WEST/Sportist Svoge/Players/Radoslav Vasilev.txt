@@ -1,6 +1,6 @@
-name= Радослав Василев
-age= 26
+name=Радослав Василев
+age=26
 number=28
 nationality=bulgarian
-position= f
-overall= 71
+position=f
+overall=71
