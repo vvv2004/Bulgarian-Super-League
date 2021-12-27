@@ -1,21 +1,24 @@
 package Classes;
 
+import java.util.HashMap;
+
 public class Match {
-    private Team[] teamsPlaying = new Team[2];
+    private Team homeTeam;
+    private Team awayTeam;
     private String resultAsString;
     private int[] resultAsIntegerArray = new int[2];
+    HashMap<Integer, Double> scoringChanceTable;
 
-    public Match(Team[] teamsPlaying, String resultAsString, int[] resultAsIntegerArray) {
-        this.teamsPlaying = teamsPlaying;
-        this.resultAsString = resultAsString;
-        this.resultAsIntegerArray = resultAsIntegerArray;
+
+    public Match(Team homeTeam, Team awayTeam) {
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
     }
 
     public Match() {
     }
 
-    public static boolean playAttack(){
-
+    public static boolean playAttack(Team attackingTeam, Team defendingTeam){
 
 
         return false;
