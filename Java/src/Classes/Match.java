@@ -12,6 +12,7 @@ public class Match {
     HashMap<Boolean, Double> scoringChanceTable;
     private int scoringChanceT1;
     private int scoringChanceT2;
+    String winningMessage;
 
 
     public Match(Team homeTeam, Team awayTeam) {
@@ -66,8 +67,8 @@ public class Match {
 
         int matchTimer = 0;
 
-        System.out.printf("%s %s (%s) срещу %s %s (%s)",  homeTeam.getName(), homeTeam.getCity(),homeTeam.getNickname(),
-                                                            , awayTeam.getName(), awayTeam.getCity(), awayTeam.getNickname());
+        System.out.printf("%s %s (%s) срещу %s %s (%s) \n",  homeTeam.getName(), homeTeam.getCity(),homeTeam.getNickname(),
+                                                            awayTeam.getName(), awayTeam.getCity(), awayTeam.getNickname());
 
 
         //That's the match itself
@@ -77,9 +78,15 @@ public class Match {
 
 
             if(matchTimer == 0){
-                System.out.println("First half begins!");
+                System.out.print("First half begins!");
+                System.out.println();
             }else if(matchTimer == 6){
                 System.out.println("Second Half begins!");
+                if(teamWithTheBall == 0){
+                    teamWithTheBall = 1;
+                }else{
+                    teamWithTheBall = 0;
+                }
             }
 
             System.out.println("Match timer: " + 5 * ++temp + "'");
@@ -95,9 +102,16 @@ public class Match {
                     if(playAttack(scoringChanceT2)){
                         resultAsIntegerArray[1]++;
                         System.out.println(awayTeam.getName() + " scored a goal");
+
                     }
                 }
             }
+
+            resultAsString = homeTeam.getName()+ ' ' + String.valueOf(resultAsIntegerArray[0]) +
+                    ':'
+                    + resultAsIntegerArray[1] + ' ' + awayTeam.getName();
+
+            System.out.println(resultAsString);
 
             if(teamWithTheBall == 0){
                 teamWithTheBall = 1;
@@ -109,12 +123,16 @@ public class Match {
             //When a button is pressed the code will proceed to the next attack
             String nextAttack = scan.nextLine();
             matchTimer++;
-            resultAsString = homeTeam.getName()+ ' ' + String.valueOf(resultAsIntegerArray[0]) +
-                    ':'
-                    + resultAsIntegerArray[1] + ' ' + awayTeam.getName();
+
         }
 
-
+        if(resultAsIntegerArray[0] > resultAsIntegerArray[1]){
+            winningMessage = homeTeam.getNickname() + " победиха " + awayTeam.getNickname() + " и взеха 3-те точки";
+        }else if(resultAsIntegerArray[0] < resultAsIntegerArray[1]){
+            winningMessage = awayTeam.getNickname() + " победиха " + homeTeam.getNickname() + " и взеха 3-те точки";
+        }else{
+            winningMessage = "Двата отбора не успяха да се победят";
+        }
     }
 
     public String getResult() {
@@ -135,5 +153,9 @@ public class Match {
 
     public void setAwayTeam(Team awayTeam) {
         this.awayTeam = awayTeam;
+    }
+
+    public String getWinningMessage() {
+        return winningMessage;
     }
 }

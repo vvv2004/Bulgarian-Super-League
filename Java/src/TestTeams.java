@@ -24,7 +24,8 @@ public class TestTeams {
         Match match1 = new Match(teams[scan.nextInt()], teams[scan.nextInt()]);
         match1.playMatch();
 
-        System.out.println(match1.getResult());
+
+        System.out.println("Краен резултат: \n" + match1.getResult() + '\n' + match1.getWinningMessage());
 
         /*
         int exit = scan.nextInt();
