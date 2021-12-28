@@ -4,7 +4,6 @@ import ReaderWriter.*;
 import Addresses.*;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -17,40 +16,27 @@ public class TestTeams {
         Writer write = new Writer();
 
         System.out.println("Loading teams...");
-        Team[] teams = loadAllTeamFromData();
+        Team[] teams = LoadingAndSaving.loadAllTeamFromData();
         System.out.println("Done loading!");
 
-        teams[14].setNickname("Silnite");
-        teams[14].setCity("QKiq grad");
+//        Match match = new Match(teams[14], teams[13]);
+//        match.playMatch();
+//        System.out.println(match.getResult());
+
+        printTeams(teams);
 
         int exit = scan.nextInt();
-
         System.out.println("Saving teams data...");
-        saveAllTeamData(teams);
+        LoadingAndSaving.saveAllTeamData(teams);
         System.out.println("Done saving!");
-        System.out.println(read.getTeamInfo(teams[14].getPathToTeamData()));
     }
 
-    public static void saveAllTeamData(Team[] teams) throws IOException{
-        Writer write = new Writer();
 
-        for (Team team : teams) {
-            write.writeAllTeamData(team);
+    public static void printTeams(Team[] teams){
+        for (Team team :
+                teams) {
+            System.out.println(team.getName());
         }
     }
 
-    public static Team[] loadAllTeamFromData() throws IOException {
-        Reader read = new Reader();
-        Team[] output = new Team[20];
-
-
-        for (Map.Entry<String, String> items: TeamAddresses.loadTeamAddresses().entrySet()){
-            for (int i = 0; i < output.length; i++) {
-                output[i] = Team.loadTeamFromDatabase(items.getValue());
-            }
-        }
-
-
-        return output;
-    }
 }
