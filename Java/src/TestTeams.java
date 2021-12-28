@@ -17,19 +17,22 @@ public class TestTeams {
 
         System.out.println("Loading teams...");
         Team[] teams = LoadingAndSaving.loadAllTeamFromData();
-        System.out.println("Done loading!");
+        System.out.println("Done loading!\n");
 
-//        Match match = new Match(teams[14], teams[13]);
-//        match.playMatch();
-//        System.out.println(match.getResult());
+        Match match1 = new Match(teams[9], teams[16]);
+        match1.playMatch();
 
-        printTeams(teams);
+        System.out.println(match1.getResult());
 
+        /*
         int exit = scan.nextInt();
         System.out.println("Saving teams data...");
         LoadingAndSaving.saveAllTeamData(teams);
         System.out.println("Done saving!");
+         */
     }
+
+
 
 
     public static void printTeams(Team[] teams){

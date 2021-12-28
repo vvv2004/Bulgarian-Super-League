@@ -66,41 +66,57 @@ public class Match {
 
         int matchTimer = 0;
 
+        System.out.printf("%s (%s %s) срещу %s (%s %s) \n", homeTeam.getNickname(), homeTeam.getName(), homeTeam.getCity(),
+                                                            awayTeam.getNickname(), awayTeam.getName(), awayTeam.getCity());
+
 
         //That's the match itself
-        while(matchTimer < 10){
+        while(matchTimer < 12){
             Scanner scan = new Scanner(System.in);
+            int temp = matchTimer;
 
-            if(matchTimer == 4){
+            if(matchTimer == 6){
                 System.out.println("Second half begins!");
             }else if(matchTimer == 0){
                 System.out.println("First Half begins!");
             }
 
-            System.out.println("Match timer: " + ++matchTimer * 5 + "'");
+            System.out.println("Match timer: " + 5 * ++temp + "'");
 
             switch(teamWithTheBall){
                 case 0 -> {
                     if(playAttack(scoringChanceT1)){
                         resultAsIntegerArray[0]++;
+                        //System.out.println("GOOOOOAALLLLL!");
+                        System.out.println(homeTeam.getName() + " scored a goal");
+                        //System.out.println("Result ");
                     }
                 }
                 case 1 -> {
                     if(playAttack(scoringChanceT2)){
                         resultAsIntegerArray[1]++;
+                        //System.out.println("GOOOOOAALLLLL!");
+                        System.out.println(awayTeam.getName() + " scored a goal");
                     }
                 }
+            }
+
+            if(teamWithTheBall == 0){
+                teamWithTheBall = 1;
+            }else{
+                teamWithTheBall = 0;
             }
 
             //This is used to freeze the program while the attack is going
             //When a button is pressed the code will proceed to the next attack
             String nextAttack = scan.nextLine();
             matchTimer++;
+            resultAsString = homeTeam.getName()+ ' ' + String.valueOf(resultAsIntegerArray[0]) +
+                    ':'
+                    + resultAsIntegerArray[1] + ' ' + awayTeam.getName();
         }
 
-        resultAsString = homeTeam.getName()+ ' ' + String.valueOf(resultAsIntegerArray[0]) +
-                ':'
-                + resultAsIntegerArray[1] + ' ' + awayTeam.getName();
+
     }
 
     public String getResult() {

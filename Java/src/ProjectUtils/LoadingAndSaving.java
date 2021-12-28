@@ -21,11 +21,10 @@ public class LoadingAndSaving {
         Reader read = new Reader();
         Team[] output = new Team[20];
 
-
+        int i = 0;
         for (Map.Entry<String, String> items: TeamAddresses.loadTeamAddresses().entrySet()){
-            for (int i = 0; i < output.length; i++) {
-                output[i] = Team.loadTeamFromDatabase(items.getValue());
-            }
+            output[i] = Team.loadTeamFromDatabase(items.getValue());
+            i++;
         }
 
 
