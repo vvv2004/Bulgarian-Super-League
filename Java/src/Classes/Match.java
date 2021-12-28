@@ -66,8 +66,8 @@ public class Match {
 
         int matchTimer = 0;
 
-        System.out.printf("%s (%s %s) срещу %s (%s %s) \n", homeTeam.getNickname(), homeTeam.getName(), homeTeam.getCity(),
-                                                            awayTeam.getNickname(), awayTeam.getName(), awayTeam.getCity());
+        System.out.printf("%s %s (%s) срещу %s %s (%s)",  homeTeam.getName(), homeTeam.getCity(),homeTeam.getNickname(),
+                                                            , awayTeam.getName(), awayTeam.getCity(), awayTeam.getNickname());
 
 
         //That's the match itself
