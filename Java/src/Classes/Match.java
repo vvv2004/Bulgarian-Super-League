@@ -72,13 +72,14 @@ public class Match {
 
         //That's the match itself
         while(matchTimer < 12){
-            Scanner scan = new Scanner(System.in);
             int temp = matchTimer;
+            Scanner scan = new Scanner(System.in);
 
-            if(matchTimer == 6){
-                System.out.println("Second half begins!");
-            }else if(matchTimer == 0){
-                System.out.println("First Half begins!");
+
+            if(matchTimer == 0){
+                System.out.println("First half begins!");
+            }else if(matchTimer == 6){
+                System.out.println("Second Half begins!");
             }
 
             System.out.println("Match timer: " + 5 * ++temp + "'");
@@ -87,15 +88,12 @@ public class Match {
                 case 0 -> {
                     if(playAttack(scoringChanceT1)){
                         resultAsIntegerArray[0]++;
-                        //System.out.println("GOOOOOAALLLLL!");
                         System.out.println(homeTeam.getName() + " scored a goal");
-                        //System.out.println("Result ");
                     }
                 }
                 case 1 -> {
                     if(playAttack(scoringChanceT2)){
                         resultAsIntegerArray[1]++;
-                        //System.out.println("GOOOOOAALLLLL!");
                         System.out.println(awayTeam.getName() + " scored a goal");
                     }
                 }

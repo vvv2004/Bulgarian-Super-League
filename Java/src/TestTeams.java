@@ -19,7 +19,9 @@ public class TestTeams {
         Team[] teams = LoadingAndSaving.loadAllTeamFromData();
         System.out.println("Done loading!\n");
 
-        Match match1 = new Match(teams[9], teams[16]);
+        printTeams(teams);
+
+        Match match1 = new Match(teams[scan.nextInt()], teams[scan.nextInt()]);
         match1.playMatch();
 
         System.out.println(match1.getResult());
@@ -32,13 +34,12 @@ public class TestTeams {
          */
     }
 
-
-
-
     public static void printTeams(Team[] teams){
+        int i = 0;
         for (Team team :
                 teams) {
-            System.out.println(team.getName());
+            System.out.println(i + " " + team.getName());
+            i++;
         }
     }
 
