@@ -17,6 +17,10 @@ public class Team {
     private int midfieldOverall;
     private int defenceOverall;
     private int coachesOverall;
+    private int points;
+    private int goalsScored;
+    private int goalAllowed;
+    private int goalDifference;
 
     public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium, String city) {
         this.name = name;
@@ -122,6 +126,38 @@ public class Team {
 
     public void setDefenceOverall(int defenceOverall) {
         this.defenceOverall = defenceOverall;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public int getGoalsScored() {
+        return goalsScored;
+    }
+
+    public void setGoalsScored(int goalsScored) {
+        this.goalsScored = goalsScored;
+    }
+
+    public int getGoalAllowed() {
+        return goalAllowed;
+    }
+
+    public void setGoalAllowed(int goalAllowed) {
+        this.goalAllowed = goalAllowed;
+    }
+
+    public int getGoalDifference() {
+        return goalDifference;
+    }
+
+    public void setGoalDifference(int goalDifference) {
+        this.goalDifference = goalDifference;
     }
 
     public int calculateAvgOverall(Player[] players, Position position){

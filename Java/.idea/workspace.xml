@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/League/Conference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/League/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Conference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/League.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/LeagueInterface.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +39,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="204yO8KIZNC6UF2zk3XSj9TyT0q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,6 +90,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
