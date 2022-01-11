@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c993e3-1a17-429c-bd8a-a93ab563f7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Addresses/TeamAddresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Addresses/TeamAddresses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Coach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Conference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/League.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Match.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Nationality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Stadium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Stadium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Interfaces/LeagueInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/CoachRoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/CoachRoles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/LoadingAndSaving.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/LoadingAndSaving.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Teams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TestTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TestTeams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Nationality.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/League/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/League/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectUtils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectUtils/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager">
     <configuration name="TestTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestTeams" />
       <module name="Java" />
@@ -79,16 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.TestTeams" />
       </list>
     </recent_temporary>

@@ -31,7 +31,7 @@ public class Match {
     private int calculateChanceBasedOnPotentialDifferenceInPercentage(double potDiff){
         if(potDiff < -2){
             return 10;
-        }else if(potDiff >= -2 && potDiff < -1){
+        }else if(potDiff >= 2 && potDiff < -1){
             return 20;
         }else if(potDiff >= -1 && potDiff < -0.5){
             return 25;

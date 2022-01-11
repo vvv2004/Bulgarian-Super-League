@@ -4,4 +4,3 @@ nickname=Зелените
 points=0
 goalsScored=0
 goalDifference=0
-id=11
