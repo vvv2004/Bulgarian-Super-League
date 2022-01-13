@@ -30,14 +30,14 @@ nav{
     margin: 0 15px;
 }
 .nav-links li a{
-    text-decoration: none;
+    text-decoration:none;
     color: #fff;
     padding: 5px 0;
     position: relative;
 }
 .nav-links li a::after{
     content:'';
-    background: #ff3d00;
+    background: white ;
     width: 0;
     height: 2px;
     position: absolute;
@@ -59,6 +59,63 @@ nav{
     z-index: -100;
 
 }
+
+text{
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border-width: 1px;
+    
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    position:absolute;
+    left: 150px;
+    top: 160px;
+    border-radius: 20%;
+
+  }
+  img{
+      border-radius: 50%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+    color: black;
+    border: 1px;
+
+  }
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(120, 128, 75, 0.2);
+    position:absolute;
+    left: 350px;
+    top: 160px;
+    transition: 0.3s;
+    width: 10%;
+    border-radius: 20%;
+  }
+  .container2 {
+    padding: 2px 16px;
+  
+  } 
+  a{
+      color: rgb(189, 163, 51);
+  }
 @media(min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
@@ -71,3 +128,4 @@ nav{
         height: auto;
     }
 }
+  
