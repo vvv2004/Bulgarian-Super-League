@@ -1,4 +1,4 @@
-nam=Ботев
+name=Ботев
 city=Враца
 nickname=Врачани
 points=0
