@@ -210,8 +210,8 @@ public class Team {
             coachesContribute = -0.3;
         }
 
-        return (attackingPlayersContribute + midfieldPlayersContribute
-                + defensivePlayersContribute + coachesContribute) / 3;
+        return ((attackingPlayersContribute + midfieldPlayersContribute
+                + defensivePlayersContribute) / 3) + coachesContribute;
     }
 
     public double calculateDefensivePotential(){
@@ -230,8 +230,8 @@ public class Team {
             coachesContribute = -0.3;
         }
 
-        return (attackingPlayersContribute + midfieldPlayersContribute
-                + defensivePlayersContribute + coachesContribute) / 3;
+        return ((attackingPlayersContribute + midfieldPlayersContribute
+                + defensivePlayersContribute) / 3) + coachesContribute;
     }
 
     public String teamInfo() {
@@ -261,7 +261,7 @@ public class Team {
         String teamInfo = reader.getTeamInfo(pathToData);
         Player[] players = reader.loadPlayersFromTeam(pathToData);
         Coach[] coaches = reader.loadCoachesFromTeam(pathToData);
-        Stadium stadium = new Stadium("Test", 20000);
+        //Stadium stadium = new Stadium("Test", 20000);
 
         output.setName(reader.getSpecificInfo(teamInfo, "name"));
         output.setCity(reader.getSpecificInfo(teamInfo, "city"));
@@ -271,8 +271,8 @@ public class Team {
         output.setAttackOverall(output.calculateAvgOverall(players, Position.FORWARD));
         output.setMidfieldOverall(output.calculateAvgOverall(players, Position.MIDFIELDER));
         output.setDefenceOverall(output.calculateAvgOverall(players, Position.DEFENDER));
-        output.setStadium(stadium);
-        output.setPathToTeamData(pathToData);
+        //output.setStadium(stadium);
+        //output.setPathToTeamData(pathToData);
 
         return output;
     }

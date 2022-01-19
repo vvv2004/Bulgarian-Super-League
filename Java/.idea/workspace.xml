@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73301b45-66f6-4fcf-87d3-b43acc25c03d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Classes/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Classes/Coach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ProjectUtils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/ReaderWriter/Writer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,5 +45,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
