@@ -22,6 +22,8 @@ public class Team {
     private int goalAllowed;
     private int goalDifference;
 
+
+    //===================================================== CONSTRUCTORS ======================================================================
     public Team(String name, String nickname, Player[] players, Coach[] coaches, Stadium stadium, String city) {
         this.name = name;
         this.nickname = nickname;
@@ -48,118 +50,124 @@ public class Team {
         stadium = null;
     }
 
+
+    //===================================================== GETTERS ======================================================================
     public String getPathToTeamData() {
         return pathToTeamData;
-    }
-
-    public void setPathToTeamData(String pathToTeamData) {
-        this.pathToTeamData = pathToTeamData;
     }
 
     public String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
-
     public Player[] getPlayers() {
         return players;
-    }
-
-    public void setPlayers(Player[] players) {
-        this.players = players;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getNickname() {
         return nickname;
-    }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
     }
 
     public Coach[] getCoaches() {
         return coaches;
     }
 
-    public void setCoaches(Coach[] coaches) {
-        this.coaches = coaches;
-    }
-
     public Stadium getStadium() {
         return stadium;
-    }
-
-    public void setStadium(Stadium stadium) {
-        this.stadium = stadium;
     }
 
     public int getAttackOverall() {
         return attackOverall;
     }
 
-    public void setAttackOverall(int attackOverall) {
-        this.attackOverall = attackOverall;
-    }
-
     public int getMidfieldOverall() {
         return midfieldOverall;
-    }
-
-    public void setMidfieldOverall(int midfieldOverall) {
-        this.midfieldOverall = midfieldOverall;
     }
 
     public int getDefenceOverall() {
         return defenceOverall;
     }
 
-    public void setDefenceOverall(int defenceOverall) {
-        this.defenceOverall = defenceOverall;
-    }
-
     public int getPoints() {
         return points;
-    }
-
-    public void setPoints(int points) {
-        this.points = points;
     }
 
     public int getGoalsScored() {
         return goalsScored;
     }
 
-    public void setGoalsScored(int goalsScored) {
-        this.goalsScored = goalsScored;
-    }
-
     public int getGoalAllowed() {
         return goalAllowed;
-    }
-
-    public void setGoalAllowed(int goalAllowed) {
-        this.goalAllowed = goalAllowed;
     }
 
     public int getGoalDifference() {
         return goalDifference;
     }
 
+
+    //===================================================== SETTERS ======================================================================
+    public void setPathToTeamData(String pathToTeamData) {
+        this.pathToTeamData = pathToTeamData;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setPlayers(Player[] players) {
+        this.players = players;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public void setCoaches(Coach[] coaches) {
+        this.coaches = coaches;
+    }
+
+    public void setStadium(Stadium stadium) {
+        this.stadium = stadium;
+    }
+
+    public void setAttackOverall(int attackOverall) {
+        this.attackOverall = attackOverall;
+    }
+
+    public void setMidfieldOverall(int midfieldOverall) {
+        this.midfieldOverall = midfieldOverall;
+    }
+
+    public void setDefenceOverall(int defenceOverall) {
+        this.defenceOverall = defenceOverall;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public void setGoalsScored(int goalsScored) {
+        this.goalsScored = goalsScored;
+    }
+
+    public void setGoalAllowed(int goalAllowed) {
+        this.goalAllowed = goalAllowed;
+    }
+
     public void setGoalDifference(int goalDifference) {
         this.goalDifference = goalDifference;
     }
 
+
+    //===================================================== METHODS ======================================================================
     public int calculateAvgOverall(Player[] players, Position position){
         int avg = 0;
         int counter = 0;

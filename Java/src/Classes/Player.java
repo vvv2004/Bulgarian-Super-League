@@ -6,6 +6,7 @@ public class Player extends Person{
     private Position position;
     private String number;
 
+    //===================================================== CONSTRUCTORS =====================================================
     public Player(String name, int age, String nationality, Position position, int overall, String number) {
         super(name, age, nationality);
         this.position = position;
@@ -17,31 +18,36 @@ public class Player extends Person{
         super(null, 0, null);
     }
 
+
+    //===================================================== GETTERS =====================================================
     public String getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
-    }
-
-
     public int getOverall() {
         return overall;
-    }
-
-    public void setOverall(int overall) {
-        this.overall = overall;
     }
 
     public Position getPosition() {
         return position;
     }
 
+
+    //===================================================== SETTERS =====================================================
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public void setOverall(int overall) {
+        this.overall = overall;
+    }
+
     public void setPosition(Position position) {
         this.position = position;
     }
 
+
+    //===================================================== METHODS =====================================================
     @Override
     public String toString() {
         return "name=" + getName() +

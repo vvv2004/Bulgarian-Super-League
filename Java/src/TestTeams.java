@@ -26,13 +26,6 @@ public class TestTeams {
 
 
         System.out.println("Краен резултат: \n" + match1.getResult() + '\n' + match1.getWinningMessage());
-
-        /*
-        int exit = scan.nextInt();
-        System.out.println("Saving teams data...");
-        LoadingAndSaving.saveAllTeamData(teams);
-        System.out.println("Done saving!");
-         */
     }
 
     public static void printTeams(Team[] teams){
