@@ -15,12 +15,13 @@ public class TestTeams {
         Reader read = new Reader();
         Writer write = new Writer();
 
-        System.out.println("Loading teams...");
+        System.out.println("ЗАРЕЖДАНЕ НА ОТБОРИТЕ...");
         Team[] teams = LoadingAndSaving.loadAllTeamFromData();
-        System.out.println("Done loading!\n");
+        System.out.println("ОТБОРИТЕ СА ЗАРЕДЕНИ!\n");
 
         printTeams(teams);
 
+        System.out.println("\nМОЛЯ ИЗБЕРЕТЕ ИНДЕКСИТЕ НА ДВАТА ОТБОРА, КОИТО ИСКАТЕ ДА СЕ ИЗПРАВЯТ ЕДИН СРЕЩУ ДРУГ!");
         Match match1 = new Match(teams[scan.nextInt()], teams[scan.nextInt()]);
         match1.playMatch();
 

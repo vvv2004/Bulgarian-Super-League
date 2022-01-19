@@ -1,5 +1,9 @@
 package Addresses;
 
+//TOВА Е КЛАСА В КОЙТО СЕ НАМИРАТ ОТБОРИТЕ
+//В HASHMAP-A СА ЗАПИСАНИ ОТБОРИТЕ И АДРЕСИТЕ ТЕХНИТЕ ФАЙЛОВЕ
+//СЪДЪРЖА МЕТОД, КОЙТО ЗАРЕЖДА ОТБОРИТЕ
+
 import Classes.*;
 
 import java.util.HashMap;

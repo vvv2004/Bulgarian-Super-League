@@ -5,7 +5,8 @@ public class Coach extends Person{
     private int overall;
     private CoachRoles role;
 
-    //CONSTRUCTORS
+
+    //===================================================== CONSTRUCTORS ======================================================================
     public Coach(String name, CoachRoles role, int age, String nationality, int overall) {
         super(name, age, nationality);
         this.overall = overall;
@@ -16,7 +17,8 @@ public class Coach extends Person{
         super(null, 0, null);
     }
 
-    //GETTERS
+
+    //===================================================== GETTERS ======================================================================
     public int getOverall() {
         return overall;
     }
@@ -25,7 +27,8 @@ public class Coach extends Person{
         return role;
     }
 
-    //SETTERS
+
+    //===================================================== SETTERS ======================================================================
     public void setOverall(int overall) {
         this.overall = overall;
     }
@@ -34,6 +37,8 @@ public class Coach extends Person{
         this.role = role;
     }
 
+
+    //===================================================== METHODS ======================================================================
     public String toString(){
         return "name=" + getName() +
                 "\nrole=" + role.toString().toLowerCase() +

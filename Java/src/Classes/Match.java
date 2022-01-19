@@ -15,6 +15,7 @@ public class Match {
     String winningMessage;
 
 
+    //===================================================== CONSTRUCTORS ======================================================================
     public Match(Team homeTeam, Team awayTeam) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
@@ -28,6 +29,36 @@ public class Match {
     public Match() {
     }
 
+
+    //===================================================== GETTERS ======================================================================
+    public String getResult() {
+        return resultAsString;
+    }
+
+    public Team getHomeTeam() {
+        return homeTeam;
+    }
+
+    public Team getAwayTeam() {
+        return awayTeam;
+    }
+
+    public String getWinningMessage() {
+        return winningMessage;
+    }
+
+
+    //===================================================== SETTERS ======================================================================
+    public void setHomeTeam(Team homeTeam) {
+        this.homeTeam = homeTeam;
+    }
+
+    public void setAwayTeam(Team awayTeam) {
+        this.awayTeam = awayTeam;
+    }
+
+
+    //===================================================== METHODS ======================================================================
     private int calculateChanceBasedOnPotentialDifferenceInPercentage(double potDiff){
         if(potDiff < -2){
             return 10;
@@ -61,7 +92,7 @@ public class Match {
 
     public void playMatch(){
 
-        //This code decides who will be first on the ball
+        //Решаване кой ще е пръв с топката
         Random random = new Random();
         int teamWithTheBall = random.nextInt(2);
 
@@ -71,17 +102,17 @@ public class Match {
                                                             awayTeam.getName(), awayTeam.getCity(), awayTeam.getNickname());
 
 
-        //That's the match itself
+        //Мачът
         while(matchTimer < 12){
             int temp = matchTimer;
             Scanner scan = new Scanner(System.in);
 
 
             if(matchTimer == 0){
-                System.out.print("First half begins!");
+                System.out.print("НАЧАЛО НА ПЪРВОТО ПОЛУВРЕМЕ!");
                 System.out.println();
             }else if(matchTimer == 6){
-                System.out.println("Second Half begins!");
+                System.out.println("НАЧАЛО НА ВТОРОТО ПОЛУВРЕМЕ!");
                 if(teamWithTheBall == 0){
                     teamWithTheBall = 1;
                 }else{
@@ -89,19 +120,19 @@ public class Match {
                 }
             }
 
-            System.out.println("Match timer: " + 5 * ++temp + "'");
+            System.out.println("ТАЙМЕР: " + 5 * ++temp + "' минута");
 
             switch(teamWithTheBall){
                 case 0 -> {
                     if(playAttack(scoringChanceT1)){
                         resultAsIntegerArray[0]++;
-                        System.out.println(homeTeam.getName() + " scored a goal");
+                        System.out.println(homeTeam.getName() + " отбелязаха гол!");
                     }
                 }
                 case 1 -> {
                     if(playAttack(scoringChanceT2)){
                         resultAsIntegerArray[1]++;
-                        System.out.println(awayTeam.getName() + " scored a goal");
+                        System.out.println(awayTeam.getName() + " отбелязаха гол!");
 
                     }
                 }
@@ -119,8 +150,8 @@ public class Match {
                 teamWithTheBall = 0;
             }
 
-            //This is used to freeze the program while the attack is going
-            //When a button is pressed the code will proceed to the next attack
+            //Използва се за замразяване на програмата
+            //Когато някой бутон бива натиснат програмата продължава
             String nextAttack = scan.nextLine();
             matchTimer++;
 
@@ -133,29 +164,5 @@ public class Match {
         }else{
             winningMessage = "Двата отбора не успяха да се победят";
         }
-    }
-
-    public String getResult() {
-        return resultAsString;
-    }
-
-    public Team getHomeTeam() {
-        return homeTeam;
-    }
-
-    public void setHomeTeam(Team homeTeam) {
-        this.homeTeam = homeTeam;
-    }
-
-    public Team getAwayTeam() {
-        return awayTeam;
-    }
-
-    public void setAwayTeam(Team awayTeam) {
-        this.awayTeam = awayTeam;
-    }
-
-    public String getWinningMessage() {
-        return winningMessage;
     }
 }
