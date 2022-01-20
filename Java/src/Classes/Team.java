@@ -38,10 +38,6 @@ public class Team {
         coachesOverall = calculateCoachesAvgOverall();
     }
 
-    public Team(String pathToTeamData){
-        this.pathToTeamData = pathToTeamData;
-    }
-
     public Team(){
         name = null;
         nickname = null;

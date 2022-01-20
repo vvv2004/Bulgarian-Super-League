@@ -1,6 +1,6 @@
 name=Миньор
 city=Перник
-nickname=Чукувете
+nickname=Чуковете
 points=0
 goalsScored=0
 goalsAllowed=0
